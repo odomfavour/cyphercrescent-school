@@ -1,0 +1,34 @@
+.navbar {
+    background: transparent !important;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    margin-left: 20px;
+    color: #fff !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff !important;
+}
+
+.topbar_inner {
+    background-color: rgb(28 25 25 / 85%) !important;
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%)   !important;
+}
+
+
+.navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+.navbar-brand img {
+    width: 50px !important;
+}
+
+@media (max-width: 427px) {
+    .navbar .nav-link {
+        margin-left: 0px !important;
+    }
+}

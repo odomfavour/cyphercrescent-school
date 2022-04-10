@@ -1,0 +1,170 @@
+
+
+.hero-bg-one {
+    background: linear-gradient(to bottom, rgba(19, 71, 160, 0.06), rgba(0, 0, 0, 0.2)), url(../../images/pic-1.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-bg-two {
+    background: linear-gradient(to bottom, rgba(19, 71, 160, 0.06), rgba(0, 0, 0, 0.2)),url(../../images/pic-2.jpg) no-repeat;;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-bg-three {
+    background: linear-gradient(to bottom, rgba(19, 71, 160, 0.06), rgba(0, 0, 0, 0.2)), url(../../images/pic-3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-bg-four {
+    background: linear-gradient(to bottom, rgba(19, 71, 160, 0.06), rgba(0, 0, 0, 0.2)), url(../../images/pic-4.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-bg-five {
+    background: linear-gradient(to bottom, rgba(19, 71, 160, 0.06), rgba(0, 0, 0, 0.2)),url(../../images/pic-5.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-bg {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #fff;
+    flex-direction: column;
+}
+
+.slider-content {
+    background-color: #00000096;
+    padding: 30px;
+}
+
+.slider-content h1 {
+    font-size: 25px;
+}
+
+.brand-name {
+    padding: 30px;
+}
+
+.brand-name h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+.brand-name span {
+    color: #000
+}
+
+.why-section {
+    /* background: linear-gradient(left ), url(../../images/pic-5.jpg) no-repeat; */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.123), rgba(19, 70, 160, 0.5)), url(../../images/pic-5.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.why-section h1 {
+    padding-top: 300px;
+    color: rgb(7, 18, 73);
+    font-weight: 900;
+}
+
+.reason-box {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.reason-box .icon-box{
+    border: 1px solid #fff;
+    background: rgb(24, 115, 234);
+    padding: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 180px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.reason-box .icon-box svg {
+    font-size: 70px;
+}
+
+
+#track-records {
+    background: linear-gradient(to bottom, rgba(19, 70, 160, 0.5), rgba(19, 70, 160, 0.5)), url(../../images/map-1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+}
+
+#track-records h2 {
+    padding: 60px 20px 30px 20px;
+}
+
+.counts {
+    padding: 50px 0;
+    border-bottom: 2px dotted #fff;
+    border-top: 2px dotted #fff;
+}
+
+
+.count-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+
+.school-program {
+    background: linear-gradient(to bottom, rgba(19, 70, 160, 0.5), rgba(0, 0, 0, 0.123));
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.school-program h3 {
+    padding-top: 100px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.partner{
+    width: 11.5%;
+}
+
+
+@media (max-width: 428px) {
+    .why-section h1 {
+        padding-top: 100px;
+        color: #fff;
+    }
+
+    .reason-box .icon-box {
+        width: 130px;
+        height: 130px;
+    }
+
+    .reason-box h3 {
+        font-size: 20px;
+    }
+
+    .partner {
+        width: 50%;
+    }
+}
