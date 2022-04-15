@@ -14,15 +14,16 @@ import adax from '../../images/adax-1.png'
 // import agip from '../../images/AGIP.png'
 import belema from '../../images/belemaoil-1.png'
 import Conoil from '../../images/conoil-1.png'
-import Eroton from '../../images/erotron.png'
+import Eroton from '../../images/erotron-1.png'
 // import FIRST from '../../images/FIRST.png'
 // import NAPIMS from '../../images/NAPIMS.png'
 import nd from '../../images/nd-1.png'
-// import NNPC from '../../images/NNPC.png'
+import NNPC from '../../images/nnpc-1.png'
 // import NPDC from '../../images/NPDC.png'
 // import ROCK from '../../images/ROCK.png'
 import SEPLAT from '../../images/seplat-1.png'
-// import SPE from '../../images/SPE.png'
+import SPE from '../../images/spe-1.png'
+import resolve from '../../images/resolve.png'
 // import SUNTERA from '../../images/SUNTERA.png'
 import WAEP from '../../images/waep-1.png'
 
@@ -96,7 +97,7 @@ const LearningScheme = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="partner">
-                            <img src={adax} alt="" className='img-fluid' />
+                            <img src={NNPC} alt="" className='img-fluid' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -106,12 +107,12 @@ const LearningScheme = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="partner">
-                            <img src={adax} alt="" className='img-fluid' />
+                            <img src={SPE} alt="" className='img-fluid' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="partner">
-                            <img src={adax} alt="" className='img-fluid' />
+                            <img src={resolve} alt="" className='img-fluid' />
                         </div>
                     </SwiperSlide>
                 </Swiper>

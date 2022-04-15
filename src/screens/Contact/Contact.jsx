@@ -79,10 +79,8 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="map-section">
-                    <div className="container">
-                        <h3 className="section-heading text-center pb-3">Drop by the School</h3>
-                        <img src={map} alt="school map" className='img-fluid' />
-                    </div>
+                    <h3 className="section-heading text-center pb-3">Drop by the School</h3>
+                    <img src={map} alt="school map" className='img-fluid' />
                 </div>
             </section>
         </PageWrapper>
