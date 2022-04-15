@@ -27,6 +27,13 @@ const Programs = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="py-5">
+                        <h2 className='section-heading'>About Course</h2>
+                        <div dangerouslySetInnerHTML={{__html:programDetails.note}}>
+                        
+                        </div>
+                        
+                    </div>
                 </div>
             </section>
         </PageWrapper>

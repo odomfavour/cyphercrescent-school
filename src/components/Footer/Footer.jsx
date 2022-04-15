@@ -25,6 +25,12 @@ const Footer = () => {
                         </div>
                         <div className="col-md-4">
                             <h5 className='section-title'>Find us on socials</h5>
+                            <ul className="d-flex justify-content-between">
+                                <li><a href="#facebook">Facebook</a></li>
+                                <li><a href="#twitter">Twitter</a></li>
+                                <li><a href="#instagram">Instagram</a></li>
+                                <li><a href="#telegram">Telegram</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

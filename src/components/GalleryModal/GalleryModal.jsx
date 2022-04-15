@@ -5,7 +5,7 @@ const GalleryModal = ({show, handleClose, imageDetail}) => {
   return (
     <Modal show={show} onHide={handleClose} size="md" centered>
             <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
+                <Modal.Title>Industry School</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <section>

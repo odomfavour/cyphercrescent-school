@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './header.css'
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import logo from '../../images/logo-1.png'
 
 const Header = () => {
+    const routePath = useLocation();
+    const onTop = () => {
+        window.scrollTo(0, 0);
+    }
+    useEffect(() => {
+        onTop()
+    }, [routePath]);
+
     // const [colorChange, setColorchange] = useState(false);
     // const changeNavbarColor = () => {
     //     if (window.scrollY >= 10) {
@@ -29,7 +37,7 @@ const Header = () => {
                         navbarScroll
                     >
                         <NavLink to="/about" className="nav-link">About Us</NavLink>
-                        <Nav.Link href="#programs-section">Programs</Nav.Link>
+                        <Nav.Link href="/#programs-section">Programs</Nav.Link>
                         <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
                         <NavLink to="/news" className="nav-link">News</NavLink>
                         <NavLink to="/faqs" className="nav-link">Faqs</NavLink>

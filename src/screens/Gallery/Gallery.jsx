@@ -29,7 +29,7 @@ const Gallery = () => {
             <section className='py-5'>
                 <div className="container">
                     <div className="text-center py-4">
-                        <h3 className='section-title'>Gallery</h3>
+                        <h3 className='section-heading'>Gallery</h3>
                     </div>
                     <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
                         <Masonry gutter={15}>

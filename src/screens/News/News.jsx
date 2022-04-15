@@ -8,7 +8,7 @@ import './news.css'
 const News = () => {
     return (
         <PageWrapper>
-            <section id="news-page">
+            <section id="news-page" className='pt-200'>
                 <div className="container">
                     <h3 className='section-heading'>Top Stories</h3>
                     <div className="py-4" id="main-news">
