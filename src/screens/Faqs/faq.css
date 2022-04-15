@@ -1,0 +1,26 @@
+.search {
+    width: 60%;
+    margin: 40px auto;
+}
+
+.question-section {
+    background: #F5F8FF;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.faq-page svg {
+    color: #002B8E;
+
+}
+
+.text-blue {
+    color: #002B8E !important;
+}
+
+@media (max-width: 427px) {
+    .search {
+        width: 90%;
+    }
+}

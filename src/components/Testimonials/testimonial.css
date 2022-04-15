@@ -1,0 +1,22 @@
+.testifier {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimony-section {
+    padding: 100px 0;
+    background: #002B8E;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.page-header {
+    width: 70%;
+    margin: 0 auto;
+}

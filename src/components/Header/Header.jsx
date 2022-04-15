@@ -1,38 +1,39 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './header.css'
-// import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap'
+import logo from '../../images/logo-1.png'
 
 const Header = () => {
-    const [colorChange, setColorchange] = useState(false);
-    const changeNavbarColor = () => {
-        if (window.scrollY >= 10) {
-            setColorchange(true);
-        }
-        else {
-            setColorchange(false);
-        }
-    };
-    window.addEventListener('scroll', changeNavbarColor);
+    // const [colorChange, setColorchange] = useState(false);
+    // const changeNavbarColor = () => {
+    //     if (window.scrollY >= 10) {
+    //         setColorchange(true);
+    //     }
+    //     else {
+    //         setColorchange(false);
+    //     }
+    // };
+    // window.addEventListener('scroll', changeNavbarColor);
+    // className={colorChange ? 'topbar_inner py-3' : ' py-3'}
     return (
-        <Navbar expand="lg" fixed="top" className={colorChange ? 'topbar_inner py-3' : 'topbar_inner py-3'}>
+        <Navbar expand="lg" fixed="top" className='py-3'>
             <Container>
-                <Navbar.Brand href="#">
-                    logo
+                <Navbar.Brand href="/">
+                    <img src={logo} alt="" className='img-fluid logo' />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
-                        className="me-auto my-2 my-lg-0"
+                        className="ms-auto my-2 my-lg-0"
                         navbarScroll
                     >
-                        <Nav.Link href="#about">About Us</Nav.Link>
-                        <Nav.Link href="#instruments">Programs</Nav.Link>
-                        <Nav.Link href="#contact">Contact</Nav.Link>
-                        <Nav.Link href="#contact">Sign Up</Nav.Link>
-                    </Nav>
-                    <Nav className="ml-auto my-2 my-lg-0">
-                        <Nav.Link href="#contact">Sign-in</Nav.Link>
+                        <NavLink to="/about" className="nav-link">About Us</NavLink>
+                        <Nav.Link href="#programs-section">Programs</Nav.Link>
+                        <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
+                        <NavLink to="/news" className="nav-link">News</NavLink>
+                        <NavLink to="/faqs" className="nav-link">Faqs</NavLink>
+                        <NavLink to="/contact" className="nav-link">Contact</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

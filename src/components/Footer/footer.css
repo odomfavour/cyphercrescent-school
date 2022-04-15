@@ -1,0 +1,36 @@
+footer {
+    background: #C2D4FF;
+    color: #000;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+.top-section {
+    border-bottom: 1px solid #002B8E;
+}
+
+.btn-primary {
+    background: #002B8E !important;
+    border: 1px solid #002B8E !important;
+}
+
+.text-primary {
+    color: #002B8E !important;
+}
+
+footer .section-title {
+    color: #002B8E !important;
+    font-weight: 900;
+}

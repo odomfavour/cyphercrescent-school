@@ -42,61 +42,45 @@ const Hero = () => {
                 >
                     <SwiperSlide>
                         <div className="hero-bg hero-bg-one">
-                            <div></div>
-                            <div className='slider-content'>
-                                <h1>Acquire<br></br>Practical skills and <br></br>not just certificates</h1>
-                            </div>
-                            <div className='brand-name'>
-                                <h1>CypherCrescent<br></br> <span>Industry</span>
-                                    <span>School</span> </h1>
+                            <div className="container">
+                                <div className='slider-content'>
+                                    <h1>Industry focused education leveraging advanced digital technologies</h1>
+                                    <p>We are committed to giving you the best because we believe in your ability..We are committed to giving you the best because.</p>
+                                    <button className="btn btn-primary px-4 mt-3">Get Started</button>
+                                </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="hero-bg hero-bg-two">
-                            <div></div>
-                            <div className='slider-content'>
-                                <h1>Acquire<br></br>Practical skills and <br></br>not just certificates</h1>
-                            </div>
-                            <div className='brand-name'>
-                                <h1>CypherCrescent<br></br> <span>Industry</span>
-                                    <span>School</span> </h1>
+                            <div className="container">
+                                <div className='slider-content'>
+                                    <h1>Acquire Practical skills and not just certificates</h1>
+                                    <p>We are committed to giving you the best because we believe in your ability..We are committed to giving you the best because.</p>
+                                    <button className="btn btn-primary px-4 mt-3">Get Started</button>
+                                </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="hero-bg hero-bg-three">
-                            <div></div>
-                            <div className='slider-content'>
-                                <h1>Acquire<br></br>Practical skills and <br></br>not just certificates</h1>
-                            </div>
-                            <div className='brand-name'>
-                                <h1>CypherCrescent<br></br> <span>Industry</span>
-                                    <span>School</span> </h1>
+                            <div className="container">
+                                <div className='slider-content'>
+                                    <h1>Acquire Practical skills and not just certificates</h1>
+                                    <p>We are committed to giving you the best because we believe in your ability..We are committed to giving you the best because.</p>
+                                    <button className="btn btn-primary px-4 mt-3">Get Started</button>
+                                </div>
                             </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="hero-bg hero-bg-four">
-                            <div></div>
-                            <div className='slider-content'>
-                                <h1>Acquire<br></br>Practical skills and <br></br>not just certificates</h1>
-                            </div>
-                            <div className='brand-name'>
-                                <h1>CypherCrescent<br></br> <span>Industry</span>
-                                    <span>School</span> </h1>
-                            </div>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="hero-bg hero-bg-five">
-                            <div></div>
-                            <div className='slider-content'>
-                                <h1>Acquire<br></br>Practical skills and <br></br>not just certificates</h1>
-                            </div>
-                            <div className='brand-name'>
-                                <h1>CypherCrescent<br></br> <span>Industry</span>
-                                    <span>School</span> </h1>
+                            <div className="container">
+                                <div className='slider-content'>
+                                    <h1>Acquire Practical skills and not just certificates</h1>
+                                    <p>We are committed to giving you the best because we believe in your ability..We are committed to giving you the best because.</p>
+                                    <button className="btn btn-primary">Get Started</button>
+                                </div>
                             </div>
                         </div>
                     </SwiperSlide>

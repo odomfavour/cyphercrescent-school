@@ -1,0 +1,32 @@
+#about-page .top-section {
+    background: url(../../images/about-bg.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+}
+
+#about-page .word-underline {
+    border-bottom: 4px solid #C5100C;
+    border-radius: 4px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#about-page .pt-100 {
+    padding-top: 100px;
+}
+
+.centered-box {
+    min-height: 550px;
+    color: #fff;
+}
+
+/* #about-page .word-underline::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 40%;
+    height: 4px;
+    background: #C5100C;
+} */

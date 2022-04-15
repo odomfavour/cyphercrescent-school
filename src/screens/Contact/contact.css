@@ -1,0 +1,65 @@
+#contact-page .top-section {
+    background: url(../../images/top-contact.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+#contact-page .contact-card {
+    width: 50%;
+    margin: -80px auto 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 24px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contact-page .contact-card-section {
+    background: #F5F8FF;
+    min-height: 276px;
+    position: relative;
+}
+
+#contact-page .contact-form-section {
+    padding: 100px 0;
+}
+
+#contact-page .contact-form {
+    padding: 30px;
+    background: #fbfbfb;
+    border-radius: 12px;
+}
+
+#contact-page .map-section {
+    padding: 100px 0;
+    background: #F5F8FF;
+}
+
+#contact-page .about-icon {
+    padding: 15px;
+    background: #F5F8FF;
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    margin: 0 auto 15px auto;
+}
+
+.contact-item svg {
+    color:  #002B8E;
+}
+
+@media (max-width: 428px) {
+    #contact-page .contact-card {
+        width: 80%;
+    }
+
+    #contact-page .contact-card {
+        margin-top: -150px;
+    }
+
+    #contact-page .contact-form{
+        padding: 30px 15px;
+    }
+}
