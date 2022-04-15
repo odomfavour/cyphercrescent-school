@@ -1,10 +1,15 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import PageWrapper from '../../layout/PageWrapper/PageWrapper'
 // import mission from '../../images/mission.png'
 
 const Programs = () => {
-    let program = localStorage.getItem('programDetails');
-    const [programDetails, setProgramDetails] = useState(JSON.parse(program));
+    const [programDetails, setProgramDetails] = useState({});
+    useEffect(() => {
+        let program = localStorage.getItem('programDetails');
+    
+    
+        setProgramDetails(JSON.parse(program));
+    }, [])
     return (
         <PageWrapper>
             <section className='pt-200 my-5'>

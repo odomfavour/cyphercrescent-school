@@ -14,7 +14,7 @@ const News = () => {
                 </div>
                 <div className="py-4">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-lg-4 col-md-6 col-12">
                             <div className="news-card">
                                 <div className="news-img">
                                     <img src={news1} alt="" className='img-fluid' />
@@ -32,7 +32,7 @@ const News = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-6 col-lg-4 col-12">
                             <div className="news-card">
                                 <div className="news-img">
                                     <img src={news2} alt="" className='img-fluid' />
@@ -50,7 +50,7 @@ const News = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-6 col-lg-4 col-12">
                             <div className="news-card">
                                 <div className="news-img">
                                     <img src={news3} alt="" className='img-fluid' />

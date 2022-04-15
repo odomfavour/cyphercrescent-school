@@ -20,7 +20,7 @@ import CountUp from 'react-countup';
 const TrackRecord = () => {
     return (
         <section id="track-records">
-            <h2 className='text-center'>CypherCrescent Track Record</h2>
+            <h2 className='text-center section-heading'>CypherCrescent Track Record</h2>
             <div className="counts">
                 <div className="container-fluid">
                     <div className="d-flex justify-content-between align-items-center flex-wrap">

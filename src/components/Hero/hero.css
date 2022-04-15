@@ -259,3 +259,19 @@
 .partner-slider {
     background: #bbe3ef;
 }
+
+
+@media (max-width: 769px) {
+    .slider-content {
+        width: 80%;
+        padding-top: 150px;
+    }
+
+    .slider-content h1 {
+        font-size: 35px;
+    }
+
+    .section-heading {
+        font-size: 30px;
+    }
+}

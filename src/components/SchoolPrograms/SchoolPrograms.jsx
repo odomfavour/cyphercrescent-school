@@ -8,11 +8,6 @@ const SchoolPrograms = () => {
         console.log(program)
         localStorage.setItem('programDetails', JSON.stringify(program));
         navigate("/programs")
-        // setImageDetail({
-        //     name: picDetail.name,
-        //     source: picDetail.image,
-        //     description: picDetail.description
-        // })
     }
 
     return (
@@ -22,7 +17,7 @@ const SchoolPrograms = () => {
                 <div className="my-5">
                     <div className="row">
                         {programs.map((program) => (
-                            <div className="col-md-3 mb-3" key={program.id}>
+                            <div className="col-md-6 col-lg-3 col-12 mb-3" key={program.id}>
                                 <div className="school-program">
                                     <div className="school-program-inner">
                                         <div className="card-front">

@@ -30,7 +30,7 @@ const Hero = () => {
                         },
                         // when window width is <= 999px
                         768: {
-                            slidesPerView: 2,
+                            slidesPerView: 1,
                         },
                         999: {
                             slidesPerView: 1,

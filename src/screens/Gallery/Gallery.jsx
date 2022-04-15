@@ -34,7 +34,7 @@ const Gallery = () => {
                     <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
                         <Masonry gutter={15}>
                             {characters.map((image) => (
-                                <img src={image.image} role="button" key={image.id} onClick={(e) => openSidebar(e, image)} />
+                                <img src={image.image} alt={image.name} role="button" key={image.id} onClick={(e) => openSidebar(e, image)} />
                             ))}
                         </Masonry>
                     </ResponsiveMasonry>

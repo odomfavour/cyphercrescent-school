@@ -11,19 +11,19 @@ import 'swiper/css'; // core Swiper
 // import 'swiper/modules/autoplay/autoplay.min.css'; // core Swiper
 
 import adax from '../../images/adax-1.png'
-import agip from '../../images/AGIP.png'
+// import agip from '../../images/AGIP.png'
 import belema from '../../images/belemaoil-1.png'
 import Conoil from '../../images/conoil-1.png'
 import Eroton from '../../images/erotron.png'
-import FIRST from '../../images/FIRST.png'
-import NAPIMS from '../../images/NAPIMS.png'
+// import FIRST from '../../images/FIRST.png'
+// import NAPIMS from '../../images/NAPIMS.png'
 import nd from '../../images/nd-1.png'
-import NNPC from '../../images/NNPC.png'
-import NPDC from '../../images/NPDC.png'
-import ROCK from '../../images/ROCK.png'
+// import NNPC from '../../images/NNPC.png'
+// import NPDC from '../../images/NPDC.png'
+// import ROCK from '../../images/ROCK.png'
 import SEPLAT from '../../images/seplat-1.png'
-import SPE from '../../images/SPE.png'
-import SUNTERA from '../../images/SUNTERA.png'
+// import SPE from '../../images/SPE.png'
+// import SUNTERA from '../../images/SUNTERA.png'
 import WAEP from '../../images/waep-1.png'
 
 const LearningScheme = () => {
@@ -119,18 +119,18 @@ const LearningScheme = () => {
             <div className="py-5 mt-3 scheme-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-5">
+                        <div className="col-md-6 col-lg-5 col-12">
                             <img src={scheme} alt="" className='img-fluid' />
                         </div>
-                        <div className="col-md-7">
+                        <div className="col-md-6 col-lg-7 col-12">
                             <h3 className='section-heading'>Cyphercrescent Learning and Development Scheme</h3>
                             <p>Our specialized trainings are inventive, they create sustainable competencies and improved capabilities through systemic and innovative processes.</p>
                             <ul className='scheme-list'>
-                                <li className='mb-4'><span><img src={check} alt="" className='img-fluid' /></span> Basic to advanced levels of tailored made courses</li>
-                                <li className='mb-4'><span><img src={check} alt="" className='img-fluid' /></span> Unlimited advisory services</li>
-                                <li className='mb-4'><span><img src={check} alt="" className='img-fluid' /></span> Professional learning solutions</li>
+                                <li className='mb-lg-4'><span><img src={check} alt="" className='img-fluid' /></span> Basic to advanced levels of tailored made courses</li>
+                                <li className='mb=lg-4'><span><img src={check} alt="" className='img-fluid' /></span> Unlimited advisory services</li>
+                                <li className='mb-lg-4'><span><img src={check} alt="" className='img-fluid' /></span> Professional learning solutions</li>
                             </ul>
-                            <button className="btn btn-primary mt-4 ">
+                            <button className="btn btn-primary mt-lg-4 ">
                                 Start learning now
                             </button>
                         </div>
