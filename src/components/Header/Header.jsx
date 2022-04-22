@@ -37,7 +37,7 @@ const Header = () => {
                         navbarScroll
                     >
                         <NavLink to="/about" className="nav-link">About Us</NavLink>
-                        <Nav.Link href="/#programs-section">Programs</Nav.Link>
+                        <Nav.Link href="/programs">Programs</Nav.Link>
                         <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
                         <NavLink to="/news" className="nav-link">News</NavLink>
                         <NavLink to="/faqs" className="nav-link">Faqs</NavLink>

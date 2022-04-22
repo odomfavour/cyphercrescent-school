@@ -2,16 +2,18 @@ import React, { useState } from 'react'
 import { PaystackButton } from 'react-paystack'
 import { Modal } from 'react-bootstrap'
 
-const Paystack = ({show, handleClose, amount }) => {
+const Paystack = ({show, handleClose, amount, courseName }) => {
     const publicKey = process.env.REACT_APP_PAYSTACK_PUBLIC_KEY;
     // const amount = 1000000 // Remember, set in kobo!
     const [email, setEmail] = useState("")
     const [name, setName] = useState("")
     const [phone, setPhone] = useState("")
+    // const [course, setCourse] = useState("")
 
     const componentProps = {
         email,
         amount,
+        courseName,
         metadata: {
             name,
             phone,
@@ -19,11 +21,12 @@ const Paystack = ({show, handleClose, amount }) => {
         publicKey,
         text: "Pay Now",
         onSuccess: () => {
+            
             alert("Payment Successful")
             handleClose()
         },
             
-        onClose: () => {alert("Wait! Don't leave :("); handleClose();},
+        onClose: () => {console.log(courseName); alert("Wait! Don't leave :("); handleClose();},
     }
     return (
         <Modal show={show} onHide={handleClose} size="md" centered>
@@ -32,6 +35,7 @@ const Paystack = ({show, handleClose, amount }) => {
             </Modal.Header>
             <Modal.Body>
                 <section>
+                    <h1 className='text-center fw-bold'>&#8358; {amount/ 100}</h1>
 
                     <div className="checkout-form">
                         <div className="checkout-field mb-3">
@@ -59,6 +63,16 @@ const Paystack = ({show, handleClose, amount }) => {
                                 id="phone"
                                 className='form-control'
                                 onChange={(e) => setPhone(e.target.value)}
+                            />
+                        </div>
+                        <div className="checkout-field mb-3">
+                            <label class="form-label">Xourse Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                value={courseName}
+                                disabled
+                                className='form-control'
                             />
                         </div>
                         <div className="checkout-field mb-3">

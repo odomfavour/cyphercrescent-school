@@ -8,6 +8,7 @@ import About from "./screens/About/About";
 import News from "./screens/News/News";
 import SingleNews from "./screens/SingleNews/SingleNews";
 import Faqs from "./screens/Faqs/Faqs";
+import Program from "./screens/Program/Program";
 import Programs from "./screens/Programs/Programs";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path="/news" element={<News />} />
       <Route path="/single-news" element={<SingleNews />} />
       <Route path="/faqs" element={<Faqs />} />
+      <Route path="/program" element={<Program />} />
       <Route path="/programs" element={<Programs />} />
     </Routes>
   );

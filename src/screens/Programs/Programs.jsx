@@ -1,68 +1,64 @@
-import React, { useEffect, useState } from 'react'
-import Paystack from '../../components/Paystack/Paystack';
-import PageWrapper from '../../layout/PageWrapper/PageWrapper'
-// import mission from '../../images/mission.png'
+import React from 'react'
+import { programs, otherPrograms } from '../../components/ProgramData/ProgramData'
+import { useNavigate } from 'react-router-dom';
+import PageWrapper from '../../layout/PageWrapper/PageWrapper';
 
 const Programs = () => {
-    const [programDetails, setProgramDetails] = useState({});
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
-    useEffect(() => {
-        console.log(process.env)
-        let program = localStorage.getItem('programDetails');
-        setProgramDetails(JSON.parse(program));
-    }, [])
+    const navigate = useNavigate();
+    const displayProgram = (program) => {
+        console.log(program)
+        localStorage.setItem('programDetails', JSON.stringify(program));
+        navigate("/program")
+    }
     return (
         <PageWrapper>
-            <section className='pt-200 my-5'>
+            <div className="programs-section pt-200">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-6">
-                            <img src={programDetails.image} alt="" className='img-fluid' />
-                        </div>
-                        <div className="col-md-6 d-flex align-items-center">
-                            <div>
-                                <h2>{programDetails.name}</h2>
-                                <p>{programDetails.description}</p>
-                                <h5 className='mt-3'>&#8358;{programDetails.price}</h5>
-                                <button className="btn btn-primary" onClick={handleShow}>Pay for Course</button>
-                            </div>
+                    <div className="my-5">
+                        <h3 className='mb-5 text-center'>Courses</h3>
+                        <div className="row">
+                            {programs.map((program) => (
+                                <div className="col-md-6 col-lg-3 col-12 mb-3" key={program.id}>
+                                    <div className="school-program">
+                                        <div className="school-program-inner">
+                                            <div className="card-front">
+                                                <img src={program.image} alt={program.title} className='img-fluid' />
+                                                <h3>{program.name}</h3>
+                                            </div>
+                                            <div className="card-back">
+                                                <h3>{program.name}</h3>
+                                                <p>{program.description}</p>
+                                                <button className='btn btn-primary mt-3' onClick={() => displayProgram(program)}>View Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
                         </div>
                     </div>
-                    <div className="py-5">
-                        <h2 className='section-heading'>About Course</h2>
-                        <div dangerouslySetInnerHTML={{ __html: programDetails.note }}>
+                    <div className="my-5">
+                        <div className="row">
+                            {otherPrograms.map((program) => (
+                                <div className="col-md-6 col-lg-3 col-12 mb-3" key={program.id}>
+                                    <div className="school-program">
+                                        <div className="school-program-inner">
+                                            <div className="card-front">
+                                                <img src={program.image} alt={program.title} className='img-fluid' />
+                                                <h3>{program.name}</h3>
+                                            </div>
+                                            <div className="card-back">
+                                                <h3>{program.name}</h3>
+                                                <p>{program.description}</p>
+                                                <button className='btn btn-primary mt-3' onClick={() => displayProgram(program)}>View Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
                         </div>
-                        <Paystack show={show} handleClose={handleClose} amount={programDetails.price + "00"} />
-                        {/* <div>
-                            <form id="paymentForm">
-                                <div class="form-group">
-                                    <label for="email">Email Address</label>
-                                    <input type="email" id="email-address" required />
-                                </div>
-                                <div class="form-group">
-                                    <label for="amount">Amount</label>
-                                    <input type="tel" id="amount" required />
-                                </div>
-                                <div class="form-group">
-                                    <label for="first-name">First Name</label>
-                                    <input type="text" id="first-name" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="last-name">Last Name</label>
-                                    <input type="text" id="last-name" />
-                                </div>
-                                <div class="form-submit">
-                                    <button type="submit" onclick="payWithPaystack()"> Pay </button>
-                                </div>
-                            </form>
-                        </div> */}
                     </div>
                 </div>
-            </section>
+            </div>
         </PageWrapper>
     )
 }

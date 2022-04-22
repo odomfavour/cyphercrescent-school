@@ -7,7 +7,7 @@ const SchoolPrograms = () => {
     const displayProgram = (program) => {
         console.log(program)
         localStorage.setItem('programDetails', JSON.stringify(program));
-        navigate("/programs")
+        navigate("/program")
     }
 
     return (

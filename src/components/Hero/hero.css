@@ -186,12 +186,16 @@
     top: 0;
 }
 
+.school-program:hover .card-front {
+    display: none;
+}
+
 .card-front h3 {
     padding: 15px;
 }
 
 .card-back h3 {
-    padding-top: 70px;
+    padding-top: 40px;
     color: #fff;
     font-weight: 900;
 }

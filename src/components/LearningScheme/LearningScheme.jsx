@@ -128,10 +128,10 @@ const LearningScheme = () => {
                             <p>Our specialized trainings are inventive, they create sustainable competencies and improved capabilities through systemic and innovative processes.</p>
                             <ul className='scheme-list'>
                                 <li className='mb-lg-4'><span><img src={check} alt="" className='img-fluid' /></span> Basic to advanced levels of tailored made courses</li>
-                                <li className='mb=lg-4'><span><img src={check} alt="" className='img-fluid' /></span> Unlimited advisory services</li>
+                                <li className='mb-lg-4'><span><img src={check} alt="" className='img-fluid' /></span> Unlimited advisory services</li>
                                 <li className='mb-lg-4'><span><img src={check} alt="" className='img-fluid' /></span> Professional learning solutions</li>
                             </ul>
-                            <button className="btn btn-primary mt-lg-4 ">
+                            <button className="btn btn-primary mt-lg-4">
                                 Start learning now
                             </button>
                         </div>
