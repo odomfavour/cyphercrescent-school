@@ -61,6 +61,16 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="">
+                            <h4>We also do the following:</h4>
+                            <ul>
+                                <li>Teaching and Learning</li>
+                                <li>Capacity Building through Seminars, Applied Technology Workshops (ATW), Seminars/Webinars, Tech Blog, etc</li>
+                                <li>Continuing Education through Short Courses, Bootcamps, e-learning etc; Publish Book & Monographs Series; Impact Reports ...</li>
+                                <li>Research & Development</li>
+                                <li>Innovation, Commercialisation and Entrepreneurship Ecosystem Development, Tech Incubators, Tech Hubs and Platforms</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>

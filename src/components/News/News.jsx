@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import news1 from '../../images/news-1.png'
 import news2 from '../../images/news-2.png'
 import news3 from '../../images/news-3.png'
@@ -27,7 +28,7 @@ const News = () => {
                                     <h5>The Long awaited Cyphercrescent website is Live</h5>
                                     <p>Our specialized trainings are inventive, they create sustainable competencies and improved capabilities through sytemic and innivative processes through trainings sustainable competencies and...............</p>
                                     <div className="d-flex justify-content-end py-3">
-                                        <a href="#read" className='text-blue'>read more</a>
+                                        <Link to="/single-news" className='text-blue'>read more</Link>
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +46,7 @@ const News = () => {
                                     <h5>The Long awaited Cyphercrescent website is Live</h5>
                                     <p>Our specialized trainings are inventive, they create sustainable competencies and improved capabilities through sytemic and innivative processes through trainings sustainable competencies and...............</p>
                                     <div className="d-flex justify-content-end py-3">
-                                        <a href="#read" className='text-blue'>read more</a>
+                                    <Link to="/single-news" className='text-blue'>read more</Link>
                                     </div>
                                 </div>
                             </div>
@@ -63,7 +64,7 @@ const News = () => {
                                     <h5>The Long awaited Cyphercrescent website is Live</h5>
                                     <p>Our specialized trainings are inventive, they create sustainable competencies and improved capabilities through sytemic and innivative processes through trainings sustainable competencies and...............</p>
                                     <div className="d-flex justify-content-end py-3">
-                                        <a href="#read" className='text-blue'>read more</a>
+                                    <Link to="/single-news" className='text-blue'>read more</Link>
                                     </div>
                                 </div>
                             </div>

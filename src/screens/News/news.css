@@ -2,9 +2,16 @@
     position: relative;
 }
 
-/* #main-news #featured-section {
-    position: fixed;
-} */
+#main-news #featured-section {
+    position: sticky;
+    top: 200px;
+}
+
+#main-news #featured-section .featured-section-inner {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
 .news-card {
     background: #FAFAFA;
@@ -51,4 +58,8 @@
 
 .action-btns {
     width: 30%;
+}
+
+.video img {
+   
 }

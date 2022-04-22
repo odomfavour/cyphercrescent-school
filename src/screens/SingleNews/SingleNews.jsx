@@ -13,7 +13,7 @@ const SingleNews = () => {
                     <div className="back-btn">
                         <Link to='/news' className="btn btn-primary">Back</Link>
                     </div>
-                    <section className='ps-5'>
+                    <section className='ps-lg-5 ps-0'>
                         <div className="news-content">
                             <h6 className='pt-3'>Injuries in Brooklyn <span>- Tue 11, April 2022</span></h6>
                             <h5>Atleast 18 people injured in Brooklyn Subway shooting, undetonated devices found</h5>

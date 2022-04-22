@@ -1,6 +1,6 @@
 import React from 'react'
 import { programs } from '../ProgramData/ProgramData'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 const SchoolPrograms = () => {
     const navigate = useNavigate();
@@ -35,7 +35,7 @@ const SchoolPrograms = () => {
                         ))}
                     </div>
                     <div className="d-flex align-items-center justify-content-end my-3">
-                        <a href="#programs" className='text-blue'>View all Courses</a>
+                        <Link to="/programs" className='text-blue'>View all Courses</Link>
                     </div>
                 </div>
             </div>

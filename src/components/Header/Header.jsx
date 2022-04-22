@@ -37,10 +37,10 @@ const Header = () => {
                         navbarScroll
                     >
                         <NavLink to="/about" className="nav-link">About Us</NavLink>
-                        <Nav.Link href="/programs">Programs</Nav.Link>
+                        <NavLink to="/programs" className='nav-link'>Programs</NavLink>
                         <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
                         <NavLink to="/news" className="nav-link">News</NavLink>
-                        <NavLink to="/faqs" className="nav-link">Faqs</NavLink>
+                        <NavLink to="/faqs" className="nav-link">FAQ</NavLink>
                         <NavLink to="/contact" className="nav-link">Contact</NavLink>
                     </Nav>
                 </Navbar.Collapse>
