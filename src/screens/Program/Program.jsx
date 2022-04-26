@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import Paystack from '../../components/Paystack/Paystack';
+import WaitingForm from '../../components/WaitingForm/WaitingForm';
 import PageWrapper from '../../layout/PageWrapper/PageWrapper'
 // import mission from '../../images/mission.png'
 
 const Program = () => {
     const [programDetails, setProgramDetails] = useState({});
     const [show, setShow] = useState(false);
+
+    const [showWaitListForm, setshowWaitListForm] = useState(false);
+    const handleCloseWaitListForm = () => setshowWaitListForm(false);
+    const handleShowWaitListForm = () => setshowWaitListForm(true);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -29,7 +34,7 @@ const Program = () => {
                                 <h5 className='mt-3'>&#8358; {programDetails.price}</h5>
                                 {programDetails.availableSoon === true ? <div> 
                                     <p className='fw-bold'>Course will be available soon.</p>
-                                    <a href="#link" className="btn btn-primary">Join waiting list</a> </div>: <button className="btn btn-primary" onClick={handleShow}>Pay for Course</button>}
+                                    <a href="#link" className="btn btn-primary" onClick={handleShowWaitListForm}>Join waiting list</a> </div>: <button className="btn btn-primary" onClick={handleShow}>Pay for Course</button>}
                                 
                             </div>
                         </div>
@@ -69,6 +74,7 @@ const Program = () => {
                             </div></div> : ""}
                         </div>
                         <Paystack show={show} handleClose={handleClose} amount={programDetails.price + "00"} courseName={programDetails.name}/>
+                        <WaitingForm show={showWaitListForm} handleClose={handleCloseWaitListForm}/>
                         {/* <div>
                             <form id="paymentForm">
                                 <div class="form-group">
