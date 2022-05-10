@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 // import { PaystackButton } from 'react-paystack'
 import { Modal } from 'react-bootstrap'
 import './paystack.css'
 
 const Paystack = ({ show, handleClose, amount, courseName, ProductLink }) => {
-    const publicKey = process.env.REACT_APP_PAYSTACK_PUBLIC_KEY;
+    // const publicKey = process.env.REACT_APP_PAYSTACK_PUBLIC_KEY;
     // const amount = 1000000 // Remember, set in kobo!
     // const [email, setEmail] = useState("")
     // const [name, setName] = useState("")
