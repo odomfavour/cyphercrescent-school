@@ -65,6 +65,12 @@ const Footer = () => {
                                 <li>Aberdeen@cyphercrescent.com</li>
                                 <li>+44(0)7493823427</li>
                                 <li>Cyphercresecent UK-Suite 9, 53-67 Whitehall Road, Aberdeen, AB25 2PQ, United Kingdom.</li>
+                                <li><a href="https://www.cyphercrescent.com.ng/" rel='noreferrer' target='_blank'>Energy Services</a></li>
+                                <li><a href="https://www.cyphercrescent.com.ng/" rel='noreferrer' target='_blank'>Information Technology</a></li>
+                                <li><a href="https://www.cyphercrescent.com.ng/" rel='noreferrer' target='_blank'>CypherCrescent E&P</a></li>
+                                
+
+
                             </ul>
                         </div>
                     </div>

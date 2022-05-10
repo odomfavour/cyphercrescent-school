@@ -157,6 +157,16 @@
     height: 100%;
 }
 
+.school-program img {
+    /* height: 313px; */
+    border-radius: 12px;
+    /* object-fit: cover;
+    object-position: center; */
+}
+
+.program img {
+    height: 600px
+}
 .school-program-inner {
     position: relative;
     width: 100%;

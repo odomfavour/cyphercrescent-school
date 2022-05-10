@@ -25,17 +25,18 @@ const Program = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <img src={programDetails.image} alt="" className='img-fluid' />
+                            <div className="program text-center">
+                                <img src={programDetails.image} alt="" className='img-fluid' />
+                            </div>
                         </div>
                         <div className="col-md-6 d-flex align-items-center">
                             <div>
                                 <h2>{programDetails.name}</h2>
                                 <p>{programDetails.description}</p>
                                 <h5 className='mt-3'>&#8358; {programDetails.price}</h5>
-                                {programDetails.availableSoon === true ? <div> 
+                                {programDetails.availableSoon === true ? <div>
                                     <p className='fw-bold'>Course will be available soon.</p>
-                                    <a href="#link" className="btn btn-primary" onClick={handleShowWaitListForm}>Join waiting list</a> </div>: <button className="btn btn-primary" onClick={handleShow}>Pay for Course</button>}
-                                
+                                    <a href="#link" className="btn btn-primary" onClick={handleShowWaitListForm}>Join waiting list</a> </div> : <button className="btn btn-primary" onClick={handleShow}>Pay for Course</button>}
                             </div>
                         </div>
                     </div>
@@ -48,33 +49,33 @@ const Program = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ea ducimus omnis deleniti, perferendis eos nihil nisi dolorum ad, blanditiis numquam repellat excepturi explicabo, consequuntur unde. Consequuntur nulla ipsa totam.</p>
                             <h5>The following professionals can benefit from this course</h5>
                             <ul dangerouslySetInnerHTML={{ __html: programDetails.professionals }}>
-                                
-                            </ul>
-                           {programDetails.objective ? <div> <h4>What are the objectives?</h4>
-                            <p>At the end of this training participants will:</p>
-                            <ul dangerouslySetInnerHTML={{ __html: programDetails.objectives }}>
 
                             </ul>
-                            <h4>How will this course be presented</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos porro ipsam optio maxime. Minus quasi earum quidem assumenda dolores possimus non, ducimus a, repellat perspiciatis explicabo odit. Vel, voluptas amet?</p>
-                            <div className="py-4">
-                                <div className="row">
-                                    <div className="col-md-5">
-                                        <h2>Apply for {programDetails.name}</h2>
-                                        <button className='btn btn-primary'>pay for course &#8358; {programDetails.price}</button>
+                            {programDetails.objective !== "" ? <div> <h4>What are the objectives?</h4>
+                                <p>At the end of this training participants will:</p>
+                                <ul dangerouslySetInnerHTML={{ __html: programDetails.objectives }}>
+
+                                </ul>
+                                <h4>How will this course be presented</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos porro ipsam optio maxime. Minus quasi earum quidem assumenda dolores possimus non, ducimus a, repellat perspiciatis explicabo odit. Vel, voluptas amet?</p>
+                                <div className="py-4">
+                                    <div className="row">
+                                        <div className="col-md-5">
+                                            <h2>Apply for {programDetails.name}</h2>
+                                            <button className='btn btn-primary'>pay for course &#8358; {programDetails.price}</button>
+                                        </div>
+                                        <div className="col-md-7">
+                                            <h4>Training Perks</h4>
+                                            <p>Training benefits include:</p>
+                                            <ul>
+                                                <li>kjjfk</li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div className="col-md-7">
-                                        <h4>Training Perks</h4>
-                                        <p>Training benefits include:</p>
-                                        <ul>
-                                            <li>kjjfk</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div></div> : ""}
+                                </div></div> : ""}
                         </div>
-                        <Paystack show={show} handleClose={handleClose} amount={programDetails.price + "00"} courseName={programDetails.name}/>
-                        <WaitingForm show={showWaitListForm} handleClose={handleCloseWaitListForm}/>
+                        <Paystack show={show} handleClose={handleClose} amount={programDetails.price + "00"} courseName={programDetails.name} ProductLink={programDetails.link} />
+                        <WaitingForm show={showWaitListForm} handleClose={handleCloseWaitListForm} />
                         {/* <div>
                             <form id="paymentForm">
                                 <div class="form-group">
