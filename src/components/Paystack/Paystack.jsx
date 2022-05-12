@@ -38,7 +38,7 @@ const Paystack = ({ show, handleClose, amount, courseName, ProductLink }) => {
             </Modal.Header>
             <Modal.Body>
                 <section className='iframe-holder'>
-                    <iframe title='waitListForm' width="640px" height="480px" src={ProductLink} frameborder="0" marginwidth="0" marginheight="0" style={{ border: 'none', maxWidth: 100 + '%', maxHeight: 100 + "vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen="true" msallowfullscreen="true"> </iframe>
+                    <iframe title='waitListForm' width="640px" height="480px" src={ProductLink} frameBorder="0" marginWidth="0" marginHeight="0" style={{ border: 'none', maxWidth: 100 + '%', maxHeight: 100 + "vh" }} allowFullScreen webkitallowfullscreen mozallowfullscreen="true" msallowfullscreen="true"> </iframe>
                 </section>
             </Modal.Body>
         </Modal>

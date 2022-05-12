@@ -7,6 +7,8 @@ import explorationBus from '../../images/programs/exploration-business.jpg'
 import sepalBus from '../../images/programs/SEPAL-business-forcast.jpg'
 import oilMgt from '../../images/programs/oil-and-gas-management.jpg'
 import wrfmOpt from '../../images/programs/WRFM-optimization.jpg'
+import prodSystem from '../../images/programs/production-system.jpg'
+import geology from '../../images/programs/geology.jpg'
 
 
 export const programs = [
@@ -21,7 +23,8 @@ export const programs = [
         "trainingFor":"This training is structured to provide an accelerated learning path for engineers who aspire to have a firm grip of petroleum engineering.",
         "professionals": "<li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li>",
         "presentation": "",
-        "link": "https://paystack.com/buy/well-performance-analysis-qcmooi"
+        // "link": "https://paystack.com/buy/test-kymzmz"
+        "link": "https://paystack.com/buy/reservoir-performance-analysis-rbwxkf"
     },
     {
         "id" : 2,
@@ -31,7 +34,8 @@ export const programs = [
         "price": 2000,
         "note": "<h4> Who is this training for?</h4>\n <p>This training is structured to provide an accelerated learning path for engineers who aspire to have a firm grip of petroleum engineering.</p> \n <p>The following professionals can benefit from the boot camp:</p> \n <ul> <li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li> </ul>\n <h4>What are the objectives?</h4>\n <p>At the end of this training participants will:</p>\n <ul> <li> Understand how to realize optimum value from the performance of their wells especially in this period of low oil prices. </li> <li>Retreat to the fundamentals of well performance analysis and embed best practices in well and reservoir management (WRM) to guaranty value from their assets</li> <li>•	Understand industry standard workflow for production optimization and well intervention candidates identification/screening.</li> </ul>",
         "professionals": "<li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li>",
-        "link": "https://paystack.com/buy/well-performance-analysis-qcmooi"
+        // "link": "https://paystack.com/buy/well-performance-analysis-qcmooi"
+        "link": "https://paystack.com/buy/well-performance-analysis-krglzk"
     },
     {
         "id" : 3,
@@ -40,7 +44,8 @@ export const programs = [
         "image" : machineLearning,
         "price": 8000,
         "note": "<h4> Who is this training for?</h4>\n <p>This training is structured to provide an accelerated learning path for engineers who aspire to have a firm grip of petroleum engineering.</p> \n <p>The following professionals can benefit from the boot camp:</p> \n <ul> <li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li> </ul>\n <h4>What are the objectives?</h4>\n <p>At the end of this training participants will:</p>\n <ul> <li>Provide participants with basic python programming concepts  </li> <li>Provide participants with firm understanding of machine learning algorithms and their applications</li> <li>Demonstrate machine learning real life applications in petroleum engineering</li> <li>Provide students with hands-on that will enable them build machine learning models </li> </ul>",
-        "professionals": "<li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li>"
+        "professionals": "<li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li>",
+        "link": "https://paystack.com/buy/machine-learning-rmocbz"
     },
     {
         "id" : 4,
@@ -49,7 +54,8 @@ export const programs = [
         "image" : bootcamp,
         "price": 4500,
         "note": "<h4> Who is this training for?</h4>\n <p>This training is structured to provide an accelerated learning path for engineers who aspire to have a firm grip of petroleum engineering.</p> \n <p>The following professionals can benefit from the boot camp:</p> \n <ul> <li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li> </ul>\n <h4>What are the objectives?</h4>\n <p>At the end of this training participants will:</p>\n <ul> <li> Understand how to realize optimum value from the performance of their wells especially in this period of low oil prices. </li> <li>Retreat to the fundamentals of well performance analysis and embed best practices in well and reservoir management (WRM) to guaranty value from their assets</li> <li>•	Understand industry standard workflow for production optimization and well intervention candidates identification/screening.</li> </ul>",
-        "professionals": "<li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li>"
+        "professionals": "<li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li>",
+        "link": "https://paystack.com/buy/petroleum-engineering-bootcamp-izzcme"
     },
 ]
 export const otherPrograms = [
@@ -105,7 +111,7 @@ export const otherPrograms = [
         "id" : 5,
         "name" : "Production Geology for Asset Management",
         "description" : "This course was designed to support participants in developing a deeper understanding of the role of geoscience and petrophysics in identifying new opportunities, exploring, developing, and managing oil & gas assets to generate value for the enterprise",
-        "image" : wrfmOpt,
+        "image" : geology,
         "price": 4500,
         "objectives": "",
         "trainingFor":"This training is structured to provide an accelerated learning path for engineers who aspire to have a firm grip of petroleum engineering.",
@@ -129,7 +135,7 @@ export const otherPrograms = [
         "id" : 7,
         "name" : "Production System Optimisation for Operational Efficiency ",
         "description" : "This training is designed to expose participants to typical production operation challenges and equip them with the requisite troubleshooting skills required to tackle the problems with little or no supervision",
-        "image" : wrfmOpt,
+        "image" : prodSystem,
         "price": 4500,
         "objectives": "",
         "trainingFor":"This training is structured to provide an accelerated learning path for engineers who aspire to have a firm grip of petroleum engineering.",
