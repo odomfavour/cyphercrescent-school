@@ -18,7 +18,7 @@ const Footer = () => {
                                     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
                                     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Enter your Email'/>
                                 </div>
-                                <button className="btn btn-primary">
+                                <button className="btn btn-light">
                                     Subscribe
                                 </button>
                             </form>

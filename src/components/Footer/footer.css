@@ -1,10 +1,11 @@
 footer {
-    background: #C2D4FF;
-    color: #000;
+    /* background: #C2D4FF; */
+    background-color: rgba(0,45,143,0.95);
+    color: #fff;
 }
 
 footer a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -31,6 +32,7 @@ footer ul li {
 }
 
 footer .section-title {
-    color: #002B8E !important;
+    /* color: #002B8E !important; */
+    color: #5CADE6;
     font-weight: 900;
 }

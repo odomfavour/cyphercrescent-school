@@ -32,17 +32,24 @@ const Header = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
-                    <Nav
-                        className="ms-auto my-2 my-lg-0"
-                        navbarScroll
-                    >
-                        <NavLink to="/about" className="nav-link">About Us</NavLink>
-                        <NavLink to="/programs" className='nav-link'>Programs</NavLink>
-                        <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
-                        <NavLink to="/news" className="nav-link">News</NavLink>
-                        <NavLink to="/faqs" className="nav-link">FAQ</NavLink>
-                        <NavLink to="/contact" className="nav-link">Contact</NavLink>
-                    </Nav>
+                    <div className="ms-auto">
+                        <Nav className="top-nav d-flex justify-content-end">
+                            <Nav.Link href="https://www.cyphercrescent.com.ng/">Energy Services</Nav.Link>
+                            <Nav.Link href="https://www.cyphercrescent.com.ng/">Information Technology</Nav.Link>
+                            <Nav.Link href="https://www.cyphercrescent.com.ng/">CypherCrescent E&P</Nav.Link>
+                        </Nav>
+                        <Nav
+                            className="ms-auto my-2 my-lg-0"
+                            navbarScroll
+                        >
+                            <NavLink to="/about" className="nav-link">About Us</NavLink>
+                            <NavLink to="/programs" className='nav-link'>Programs</NavLink>
+                            <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
+                            <NavLink to="/news" className="nav-link">News</NavLink>
+                            <NavLink to="/faqs" className="nav-link">FAQ</NavLink>
+                            <NavLink to="/contact" className="nav-link">Contact</NavLink>
+                        </Nav>
+                    </div>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
