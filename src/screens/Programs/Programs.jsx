@@ -15,7 +15,9 @@ const Programs = () => {
             <div className="programs-section pt-200">
                 <div className="container">
                     <div className="my-5">
-                        <h3 className='mb-5 text-center'>Courses</h3>
+                        <h3 className='mb-5 text-center'>Short Courses</h3>
+                        <h5 className='text-center pb-5'>Ready to take your interest further and register for one of our programs? Check out the range of
+                            programs we have available below</h5>
                         <div className="row">
                             {programs.map((program) => (
                                 <div className="col-md-6 col-lg-3 col-12 mb-3" key={program.id}>

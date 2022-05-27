@@ -36,3 +36,11 @@ footer .section-title {
     color: #5CADE6;
     font-weight: 900;
 }
+
+.contact-heading {
+    width: 20%;
+}
+
+.contact-info {
+    width: 80%;
+}

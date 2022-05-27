@@ -30,7 +30,11 @@ const About = () => {
                                     <div>
                                         <h2 className='section-heading pt-100'>CypherCrescent Industry<br />School</h2>
                                         <div className="word-underline"></div>
-                                        <p>CypherCrescent Industry school was established to solve practical industry problems by bridging the skill gap in the E&P, energy & technology industries driving research and innovation for sustainable development. We are passionate about human capacity building and equipping people with practical skills required to create value in the dynamic business world. The industry school is a subsidiary of CypherCrescent Group.</p>
+                                        <p>CypherCrescent L&D is a subsidiary of the CypherCrescent group that runs an industry school. Our
+                                            industry school is dedicated to solving practical industry problems by educating and bridging the
+                                            practical skill gap in the E&P industry, allowing industry professionals to earn an academic degree
+                                            or industry certification in recognition of the skills, knowledge, and experience garnered while
+                                            working</p>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +44,8 @@ const About = () => {
                                 <div className="col-md-6 d-flex align-items-center">
                                     <div>
                                         <h2 className='section-heading'>Our Vision</h2>
-                                        <p>To create a learning hub that will leverage on people, processes, and technologies to faster collaborations between professionals in the industry, government, and higher institutions.</p>
+                                        <p>A centre of excellence for upskilling and reskilling professionals in the industry, government,
+                                            and higher institution </p>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
@@ -56,7 +61,8 @@ const About = () => {
                                 <div className="col-md-6 d-flex align-items-center">
                                     <div>
                                         <h2 className='section-heading'>Our Mission</h2>
-                                        <p>To create a unique learning environment for the development of professionals that will produce innovative solutions to solve emerging local and global challenges.</p>
+                                        <p>To create a uniquely practical learning experience for professionals to solve emerging local
+                                            and global challenges by leveraging people, processes, and technology. </p>
                                     </div>
                                 </div>
                             </div>

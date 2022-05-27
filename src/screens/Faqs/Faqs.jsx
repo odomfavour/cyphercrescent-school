@@ -1,5 +1,6 @@
 import React from 'react'
 import './faq.css'
+import { faqs } from './faq'
 import PageWrapper from '../../layout/PageWrapper/PageWrapper'
 import help from '../../images/help.png'
 import { Accordion } from 'react-bootstrap'
@@ -86,24 +87,14 @@ const Faqs = () => {
                                             </div>
                                         </div>
                                         <Accordion defaultActiveKey="0">
-                                            <Accordion.Item eventKey="0">
-                                                <Accordion.Header>How do I register for the program?</Accordion.Header>
-                                                <Accordion.Body>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                                                    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                                    est laborum.
-                                                </Accordion.Body>
-                                            </Accordion.Item>
-                                            <Accordion.Item eventKey="1">
-                                                <Accordion.Header>What is the mode of payment?</Accordion.Header>
-                                                <Accordion.Body>
-                                                    Education is very different from the other sectors so all the payment modes may not be applicable. When deciding on the payment modes to accept online payments, you can enable modes that are relevant based on the kind of transactions you are expecting and avoid overcrowding the checkout page with too many payment modes.
-                                                </Accordion.Body>
-                                            </Accordion.Item>
+                                            {faqs.map((faq) => (
+                                                <Accordion.Item eventKey={faq.id - 1} key={faq.id}>
+                                                    <Accordion.Header><span className='faq-question'>{faq.question}</span></Accordion.Header>
+                                                    <Accordion.Body>
+                                                        <p dangerouslySetInnerHTML={{ __html: faq.answer }}></p>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+                                            ))}
                                         </Accordion>
                                     </section>
                                 </div>

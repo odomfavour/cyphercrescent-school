@@ -15,7 +15,7 @@ import landD from '../../images/programs/LandD.jpg'
 export const programs = [
     {
         "id" : 1,
-        "name" : "Reservoir Performance Analysis",
+        "name" : "Reservoir Performance Analytics",
         "description" : "This course is designed to equip participants with the understanding of reservoir performance analysis and introduces them to material balance and decline curve analysis methods of assess reservoir performance. ",
         "image" : reservoir,
         "price": 1000,
@@ -42,7 +42,7 @@ export const programs = [
     },
     {
         "id" : 3,
-        "name" : "Machine Learning",
+        "name" : "Machine Learning for Energy Professionals",
         "description" : "This course explores the basic concepts and techniques of python programming, Machine Learning fundamentals and the industrial application of machine learning in core areas of petroleum engineering like drilling, reservoir engineering, well integrity etc.",
         "image" : machineLearning,
         "price": 1000,
@@ -54,7 +54,7 @@ export const programs = [
     },
     {
         "id" : 4,
-        "name" : "Petroleum Engineering Bootcamp",
+        "name" : "Petroleum Engineering and Subsurface Integration Bootcamp",
         "description" : "This course focuses on the engineering bootcamp.",
         "image" : bootcamp,
         "price": 1000,
@@ -80,7 +80,7 @@ export const otherPrograms = [
     },
     {
         "id" : 2,
-        "name" : "Exploration and Production Contracts",
+        "name" : " Exploration and Production Contracts – A Practical Approach",
         "description" : "This course brings home the comprehensive analysis of the Nigerian fiscal regime and its allocation mechanics under the PSC.",
         "image" : exploration,
         "price": 2000,

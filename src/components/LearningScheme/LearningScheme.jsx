@@ -1,6 +1,6 @@
 import React from 'react'
-import scheme from '../../images/scheme.png'
-import check from '../../images/check.png'
+// import scheme from '../../images/scheme.png'
+// import check from '../../images/check.png'
 
 // Import Swiper React components
 import { Autoplay, Navigation, } from 'swiper';
@@ -30,7 +30,7 @@ import WAEP from '../../images/waep-1.png'
 const LearningScheme = () => {
     return (
         <section className='py-5'>
-            <h3 className='text-center section-heading'>Clients</h3>
+            <h3 className='text-center section-heading'>Ours Clients</h3>
             <div className="py-5 partner-slider">
                 <Swiper
                     modules={[Autoplay, Navigation]}
@@ -117,7 +117,7 @@ const LearningScheme = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className="py-5 mt-3 scheme-section">
+            {/* <div className="py-5 mt-3 scheme-section">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-lg-5 col-12">
@@ -137,7 +137,7 @@ const LearningScheme = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }

@@ -13,7 +13,7 @@ const Testimonials = () => {
     return (
         <section className='pb-4'>
             <div className="page-header text-center py-3">
-                <h3 className='section-heading'>Success stories from our past & present trainees of Cyphercrescent</h3>
+                <h3 className='section-heading'>Testimonials</h3>
             </div>
             <div className="testimony-section">
                 <div className="container">
@@ -48,15 +48,17 @@ const Testimonials = () => {
                             onSwiper={(swiper) => console.log(swiper)}
                         >
                             <SwiperSlide>
-                                <div className="testimonial-card">
+                                <div className="testimonial-card h-100">
                                     <div>
-                                        <p>We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.</p>
+                                        <p>It was an interesting but tasking experience. We were tasked with hands-on
+                                            challenges, mathematics/technical solution sourcing, and code implementations.
+                                            The program was simply an answer to my needs at a time like this.</p>
                                     </div>
                                     <div>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
-                                                <h5 className='mb-0'>John Doe</h5>
+                                                <h5 className='mb-0'> Miikor Barilelo</h5>
                                                 <p className='mb-0'>Freelancer</p>
                                             </div>
                                         </div>
@@ -64,15 +66,17 @@ const Testimonials = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="testimonial-card">
+                                <div className="testimonial-card h-100">
                                     <div>
-                                        <p>We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.</p>
+                                        <p>For me, the SPE/CypherCrescent digital capacity training is the most engaging tech
+                                            program I have ever enrolled in. The course modules, delivery methods, evaluation,
+                                            and constant follow-up by tutors, were commendable.</p>
                                     </div>
                                     <div>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
-                                                <h5 className='mb-0'>John Doe</h5>
+                                                <h5 className='mb-0'>Ikeokwu Chinaza</h5>
                                                 <p className='mb-0'>Freelancer</p>
                                             </div>
                                         </div>
@@ -80,15 +84,18 @@ const Testimonials = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="testimonial-card">
+                                <div className="testimonial-card h-100">
                                     <div>
-                                        <p>We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.</p>
+                                        <p>My experience in the SPE/CypherCrescent digital capacity training was amazing.
+                                            Before I started, I had next to zero knowledge about python programming and
+                                            machine learning. I now have the chance to test my knowledge in the real world,
+                                            especially in oil and gas.</p>
                                     </div>
                                     <div>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
-                                                <h5 className='mb-0'>John Doe</h5>
+                                                <h5 className='mb-0'>Calista Uchenna Dike</h5>
                                                 <p className='mb-0'>Freelancer</p>
                                             </div>
                                         </div>
@@ -96,15 +103,18 @@ const Testimonials = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="testimonial-card">
+                                <div className="testimonial-card h-100">
                                     <div>
-                                        <p>We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.</p>
+                                        <p>I want to use this medium to appreciate SPE and CypherCrescent for the wonderful
+                                            lifetime opportunity and training given to me. My experience from the program has
+                                            kept me going and recently helped me to secure a learning/work contract with
+                                            Explore Data Science Academy. I am grateful for the wonderful experience.</p>
                                     </div>
                                     <div>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
-                                                <h5 className='mb-0'>John Doe</h5>
+                                                <h5 className='mb-0'>Efugha Chibuikem Godwin</h5>
                                                 <p className='mb-0'>Freelancer</p>
                                             </div>
                                         </div>
@@ -112,15 +122,18 @@ const Testimonials = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="testimonial-card">
+                                <div className="testimonial-card h-100">
                                     <div>
-                                        <p>We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.</p>
+                                        <p>The SPE/CypherCrescent internship on machine learning was a wonderful
+                                            opportunity that introduced me to the world of coding. I had an awesome
+                                            experience solving industry problems with great minds and being tutored by
+                                            experts from various fields. This was a great privilege.</p>
                                     </div>
                                     <div>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
-                                                <h5 className='mb-0'>John Doe</h5>
+                                                <h5 className='mb-0'>Mary Akpaesien</h5>
                                                 <p className='mb-0'>Freelancer</p>
                                             </div>
                                         </div>
@@ -128,31 +141,17 @@ const Testimonials = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className="testimonial-card">
+                                <div className="testimonial-card h-100">
                                     <div>
-                                        <p>We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.</p>
+                                        <p>It was a great experience for me. Especially because I went from having no
+                                            programming knowledge to being able to do basic data science and machine
+                                            learning. It has helped pique my interest in programming.</p>
                                     </div>
                                     <div>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
-                                                <h5 className='mb-0'>John Doe</h5>
-                                                <p className='mb-0'>Freelancer</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="testimonial-card">
-                                    <div>
-                                        <p>We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.</p>
-                                    </div>
-                                    <div>
-                                        <div className="d-flex align-items-center">
-                                            <img src={girl} alt="" className='testifier me-3' />
-                                            <div>
-                                                <h5 className='mb-0'>John Doe</h5>
+                                                <h5 className='mb-0'>Israel Nwanyah</h5>
                                                 <p className='mb-0'>Freelancer</p>
                                             </div>
                                         </div>

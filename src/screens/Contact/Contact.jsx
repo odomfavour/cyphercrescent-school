@@ -19,7 +19,9 @@ const Contact = () => {
                                     <div className="about-icon">
                                         <FaMapMarkerAlt />
                                     </div>
-                                    <p>Flour mills estate, off street Badagry, Lagos Nigeria</p>
+                                    <p>Plot 76A Fiddil Avenue, Off Ordinance Road,
+                                        Trans Amadi Industrial Layout,
+                                        Port Harcourt, Nigeria</p>
                                 </div>
                             </div>
                             <div className="col-md-4 mb-2">
@@ -27,7 +29,7 @@ const Contact = () => {
                                     <div className="about-icon">
                                         <FaPhoneAlt />
                                     </div>
-                                    <p>+234 (132)-581-5551</p>
+                                    <p>08111113957</p>
                                 </div>
                             </div>
                             <div className="col-md-4 mb-2">
@@ -35,7 +37,7 @@ const Contact = () => {
                                     <div className="about-icon">
                                         <FaEnvelope />
                                     </div>
-                                    <p>Chudi.disha.page</p>
+                                    <p>learning@cyphercrescent.com</p>
                                 </div>
                             </div>
                         </div>
@@ -46,8 +48,9 @@ const Contact = () => {
                         <div className="row">
                             <div className="col-md-6 d-flex align-items-center">
                                 <div>
-                                    <h3>Leave a Message</h3>
-                                    <p>Kindly leave us a message, regarding any complaints, enquiries and we’ll be in touch shortly</p>
+                                    {/* <h3>Leave a Message</h3> */}
+                                    <p>Contact us today, to ask anything about our programs, get further information on how to
+                                        apply and we will be in touch.</p>
                                 </div>
                             </div>
                             <div className="col-md-6">

@@ -42,6 +42,7 @@ const Header = () => {
                             className="ms-auto my-2 my-lg-0"
                             navbarScroll
                         >
+                            <NavLink to="/" className="nav-link">Home</NavLink>
                             <NavLink to="/about" className="nav-link">About Us</NavLink>
                             <NavLink to="/programs" className='nav-link'>Programs</NavLink>
                             <NavLink to="/gallery" className="nav-link">Gallery</NavLink>
