@@ -58,7 +58,7 @@ const Footer = () => {
                             <p className='section-title'>Links</p>
                             <ul>
                                 <li><a href="#home">Help & support</a></li>
-                                <li><a href="#home">Privacy policy</a></li>
+                                <li><a href="/privacy-policy">Privacy policy</a></li>
                                 <li><a href="#home">Careers</a></li>
                                 <li><a href="#home">Blog</a></li>
                             </ul>
@@ -101,9 +101,6 @@ const Footer = () => {
                                 {/* <li><a href="https://www.cyphercrescent.com.ng/" rel='noreferrer' target='_blank'>Energy Services</a></li>
                                 <li><a href="https://www.cyphercrescent.com.ng/" rel='noreferrer' target='_blank'>Information Technology</a></li>
                                 <li><a href="https://www.cyphercrescent.com.ng/" rel='noreferrer' target='_blank'>CypherCrescent E&P</a></li> */}
-
-
-
                             </ul>
                         </div>
                     </div>

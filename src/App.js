@@ -10,6 +10,7 @@ import SingleNews from "./screens/SingleNews/SingleNews";
 import Faqs from "./screens/Faqs/Faqs";
 import Program from "./screens/Program/Program";
 import Programs from "./screens/Programs/Programs";
+import Privacy from "./screens/Privacy/Privacy";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Route path="/faqs" element={<Faqs />} />
       <Route path="/program" element={<Program />} />
       <Route path="/programs" element={<Programs />} />
+      <Route path="/privacy-policy" element={<Privacy />} />
     </Routes>
   );
 }
