@@ -1,5 +1,5 @@
 import React from 'react'
-import girl from '../../images/girl.png'
+import girl from '../../images/avatar.png'
 // Import Swiper React components
 import { Autoplay, Navigation, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './header.css'
 import { NavLink, useLocation } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap'
-import logo from '../../images/logo-1.png'
+import logo from '../../images/CCLD.png'
 
 const Header = () => {
     const routePath = useLocation();

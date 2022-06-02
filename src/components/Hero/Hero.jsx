@@ -75,7 +75,7 @@ const Hero = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="hero-bg hero-bg-three">
+                        <div className="hero-bg hero-bg-five">
                             <div className="container">
                                 <div className='slider-content'>
                                     <h1> A hybrid learning experience that is affordable, Flexible and Industry-focused</h1>
