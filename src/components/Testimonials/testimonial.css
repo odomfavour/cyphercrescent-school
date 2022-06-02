@@ -14,9 +14,26 @@
     background: #fff;
     padding: 30px;
     border-radius: 12px;
+    min-height: 300px;
+    position: relative;
+}
+
+.testimonial-card .person-info-test {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 20px 20px 20px;
 }
 
 .page-header {
     width: 70%;
     margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        min-height: 320px;
+    }
+    
 }

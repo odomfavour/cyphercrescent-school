@@ -10,10 +10,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; // core Swiper
 // import 'swiper/modules/autoplay/autoplay.min.css'; // core Swiper
 
-import adax from '../../images/adax-1.png'
+// import adax from '../../images/adax-1.png'
 // import agip from '../../images/AGIP.png'
-import belema from '../../images/belemaoil-1.png'
-import Conoil from '../../images/conoil-1.png'
+// import belema from '../../images/belemaoil-1.png'
+// import Conoil from '../../images/conoil-1.png'
 import Eroton from '../../images/erotron-1.png'
 // import FIRST from '../../images/FIRST.png'
 // import NAPIMS from '../../images/NAPIMS.png'
@@ -25,6 +25,12 @@ import SEPLAT from '../../images/seplat-1.png'
 import SPE from '../../images/spe-1.png'
 import resolve from '../../images/resolve.png'
 // import SUNTERA from '../../images/SUNTERA.png'
+import futo from '../../images/school-icons/futo.png'
+import nile from '../../images/school-icons/nile.png'
+import ojukwu from '../../images/school-icons/ojukwu.png'
+import uniport from '../../images/school-icons/uniport.png'
+import aust from '../../images/school-icons/aust.png'
+import futMinna from '../../images/school-icons/fut-minna.png'
 import WAEP from '../../images/waep-1.png'
 
 const LearningScheme = () => {
@@ -62,17 +68,17 @@ const LearningScheme = () => {
                 >
                     <SwiperSlide>
                         <div className="partner">
-                            <img src={adax} alt="" className='img-fluid' />
+                            <img src={futMinna} alt="" className='img-fluid' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="partner">
-                            <img src={belema} alt="" className='img-fluid' />
+                            <img src={futo} alt="" className='img-fluid' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="partner">
-                            <img src={Conoil} alt="" className='img-fluid' />
+                            <img src={ojukwu} alt="" className='img-fluid' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
@@ -102,7 +108,17 @@ const LearningScheme = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="partner">
-                            <img src={adax} alt="" className='img-fluid' />
+                            <img src={uniport} alt="" className='img-fluid' />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="partner">
+                            <img src={aust} alt="" className='img-fluid' />
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="partner">
+                            <img src={nile} alt="" className='img-fluid' />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>

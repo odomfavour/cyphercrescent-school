@@ -54,7 +54,7 @@ const Testimonials = () => {
                                             challenges, mathematics/technical solution sourcing, and code implementations.
                                             The program was simply an answer to my needs at a time like this.</p>
                                     </div>
-                                    <div>
+                                    <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
@@ -72,7 +72,7 @@ const Testimonials = () => {
                                             program I have ever enrolled in. The course modules, delivery methods, evaluation,
                                             and constant follow-up by tutors, were commendable.</p>
                                     </div>
-                                    <div>
+                                    <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
@@ -91,7 +91,7 @@ const Testimonials = () => {
                                             machine learning. I now have the chance to test my knowledge in the real world,
                                             especially in oil and gas.</p>
                                     </div>
-                                    <div>
+                                    <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
@@ -110,7 +110,7 @@ const Testimonials = () => {
                                             kept me going and recently helped me to secure a learning/work contract with
                                             Explore Data Science Academy. I am grateful for the wonderful experience.</p>
                                     </div>
-                                    <div>
+                                    <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
@@ -129,7 +129,7 @@ const Testimonials = () => {
                                             experience solving industry problems with great minds and being tutored by
                                             experts from various fields. This was a great privilege.</p>
                                     </div>
-                                    <div>
+                                    <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>
@@ -147,7 +147,7 @@ const Testimonials = () => {
                                             programming knowledge to being able to do basic data science and machine
                                             learning. It has helped pique my interest in programming.</p>
                                     </div>
-                                    <div>
+                                    <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
                                             <img src={girl} alt="" className='testifier me-3' />
                                             <div>

@@ -69,7 +69,7 @@ const News = () => {
                                 </div>
                                 <div className="news-detail p-3">
                                     <div className="d-flex justify-content-between">
-                                        <p>Cyphercrescent Launches</p>
+                                        <p>CypherCrescent Launches</p>
                                         <p>09 April 22</p>
                                     </div>
                                     <h5>The Long awaited Cyphercrescent website is Live</h5>

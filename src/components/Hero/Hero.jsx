@@ -41,6 +41,16 @@ const Hero = () => {
                     onSwiper={(swiper) => console.log(swiper)}
                 >
                     <SwiperSlide>
+                        <div className="hero-bg hero-bg-three">
+                            <div className="container">
+                                <div className='slider-content'>
+                                    <h1>Bridging the digital skill gap for professionals in the industry, government and higher institutions</h1>
+                                    <button className="btn btn-primary px-4 mt-3">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <div className="hero-bg hero-bg-one">
                             <div className="container">
                                 <div className='slider-content'>

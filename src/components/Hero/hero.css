@@ -141,15 +141,20 @@
 }
 
 .counts {
-    padding: 20px;
+    padding: 60px 20px;
     background: #F5F8FF;
+}
+
+.counts .count-box {
+    padding-bottom: 15px;
 }
 
 .count-number {
     color: #002B8E;
-    font-size: 36px;
+    font-size: 50px;
     margin-right: 10px;
     font-weight: 700;
+    padding-bottom: 8px;
 }
 
 .counts p {
@@ -283,6 +288,10 @@
 
     .lower-row {
         width: 100%;
+    }
+
+    .counts .count-number {
+        font-size: 36px;
     }
 }
 
