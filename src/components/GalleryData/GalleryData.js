@@ -36,7 +36,7 @@ export const characters = [
         "id" : 5,
         "name" : "CypherCrescent Industry School",
         "description" : "Images from events so far",
-        "image" : pic8,
+        "image" : pic3,
     },
     {
         "id" : 6,
@@ -48,24 +48,12 @@ export const characters = [
         "id" : 7,
         "name" : "CypherCrescent Industry School",
         "description" : "Images from events so far",
-        "image" : pic7,
+        "image" : pic8,
     },
     {
         "id" : 8,
         "name" : "CypherCrescent Industry School",
         "description" : "Images from events so far",
-        "image" : pic8,
-    },
-    {
-        "id" : 9,
-        "name" : "CypherCrescent Industry School",
-        "description" : "Images from the school ",
-        "image" : pic3,
-    },
-    {
-        "id" : 8,
-        "name" : "CypherCrescent Industry School",
-        "description" : "Images from events so far ",
         "image" : pic5,
-    }
+    },
 ]
