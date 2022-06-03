@@ -1,5 +1,14 @@
 import React from 'react'
 import girl from '../../images/avatar.png'
+import calista from '../../images/testimony/calista-dikeh.jpg'
+import collins from '../../images/testimony/collins-Ikeokwu.jpg'
+// import david from '../../images/testimony/david-emenike.jpg'
+import israel from '../../images/testimony/israel-nwanyah.jpg'
+import mary from '../../images/testimony/mary-akpaessien.jpg'
+import miikor from '../../images/testimony/miikor-barilelo.jpg'
+// import princess from '../../images/testimony/princess-nwaru.jpg'
+// import teyira from '../../images/testimony/teyira-geo-needam.jpg'
+// import wellington from '../../images/testimony/wellington-chimenumeze.jpg'
 // Import Swiper React components
 import { Autoplay, Navigation, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -56,10 +65,10 @@ const Testimonials = () => {
                                     </div>
                                     <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
-                                            <img src={girl} alt="" className='testifier me-3' />
+                                            <img src={miikor} alt="" className='testifier me-2' />
                                             <div>
                                                 <h5 className='mb-0'> Miikor Barilelo</h5>
-                                                <p className='mb-0'>Freelancer</p>
+                                                <p className='mb-0'>Trainee</p>
                                             </div>
                                         </div>
                                     </div>
@@ -74,10 +83,10 @@ const Testimonials = () => {
                                     </div>
                                     <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
-                                            <img src={girl} alt="" className='testifier me-3' />
+                                            <img src={collins} alt="" className='testifier me-2' />
                                             <div>
                                                 <h5 className='mb-0'>Ikeokwu Chinaza</h5>
-                                                <p className='mb-0'>Freelancer</p>
+                                                <p className='mb-0'>Trainee</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,7 +102,7 @@ const Testimonials = () => {
                                     </div>
                                     <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
-                                            <img src={girl} alt="" className='testifier me-3' />
+                                            <img src={calista} alt="" className='testifier me-2' />
                                             <div>
                                                 <h5 className='mb-0'>Calista Uchenna Dike</h5>
                                                 <p className='mb-0'>Freelancer</p>
@@ -112,10 +121,10 @@ const Testimonials = () => {
                                     </div>
                                     <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
-                                            <img src={girl} alt="" className='testifier me-3' />
+                                            <img src={girl} alt="" className='testifier me-2' />
                                             <div>
                                                 <h5 className='mb-0'>Efugha Chibuikem Godwin</h5>
-                                                <p className='mb-0'>Freelancer</p>
+                                                <p className='mb-0'>Trainee</p>
                                             </div>
                                         </div>
                                     </div>
@@ -131,10 +140,10 @@ const Testimonials = () => {
                                     </div>
                                     <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
-                                            <img src={girl} alt="" className='testifier me-3' />
+                                            <img src={mary} alt="" className='testifier me-2' />
                                             <div>
                                                 <h5 className='mb-0'>Mary Akpaesien</h5>
-                                                <p className='mb-0'>Freelancer</p>
+                                                <p className='mb-0'>Trainee</p>
                                             </div>
                                         </div>
                                     </div>
@@ -149,10 +158,10 @@ const Testimonials = () => {
                                     </div>
                                     <div className='person-info-test'>
                                         <div className="d-flex align-items-center">
-                                            <img src={girl} alt="" className='testifier me-3' />
+                                            <img src={israel} alt="" className='testifier me-2' />
                                             <div>
                                                 <h5 className='mb-0'>Israel Nwanyah</h5>
-                                                <p className='mb-0'>Freelancer</p>
+                                                <p className='mb-0'>Trainee</p>
                                             </div>
                                         </div>
                                     </div>

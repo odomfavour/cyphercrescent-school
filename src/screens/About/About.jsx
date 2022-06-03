@@ -13,8 +13,8 @@ const About = () => {
                     <div className="container">
                         <div className="d-flex align-items-center justify-content-center centered-box">
                             <div>
-                                <h1 className='fw-bold'>Cyphercrescent Industry School</h1>
-                                <p>Cyphercrescent industry School was established to solve practical industry problems by bringing the skill gap in the E&p, energy & technology industries driving research and innovation for susstainable development.</p>
+                                <h1 className='fw-bold'>CypherCrescent Industry School</h1>
+                                <p>CypherCrescent Industry School was established to solve practical industry problems by bringing the skill gap in the E&P, energy & technology industries driving research and innovation for sustainable development.</p>
                             </div>
                         </div>
                     </div>

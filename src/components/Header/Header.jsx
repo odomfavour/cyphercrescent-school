@@ -34,9 +34,9 @@ const Header = () => {
                 <Navbar.Collapse id="navbarScroll">
                     <div className="ms-auto">
                         <Nav className="top-nav d-flex justify-content-end">
-                            <Nav.Link href="https://www.cyphercrescent.com.ng/">Energy Services</Nav.Link>
-                            <Nav.Link href="https://www.cyphercrescent.com.ng/">Information Technology</Nav.Link>
-                            <Nav.Link href="https://www.cyphercrescent.com.ng/">CypherCrescent E&P</Nav.Link>
+                            <Nav.Link href="https://ccl-flamingo-dev.netlify.app/" target='_blank'>Energy Services</Nav.Link>
+                            <Nav.Link href="http://www.cyphercrescent.tech/" target='_blank'>Information Technology</Nav.Link>
+                            <Nav.Link href="http://www.cyphercrescent.com.ng" target='_blank'>CypherCrescent E&P</Nav.Link>
                         </Nav>
                         <Nav
                             className="ms-auto my-2 my-lg-0"

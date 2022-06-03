@@ -45,7 +45,6 @@ const Hero = () => {
                             <div className="container">
                                 <div className='slider-content'>
                                     <h1>Bridging the digital skill gap for professionals in the industry, government and higher institutions</h1>
-                                    <button className="btn btn-primary px-4 mt-3">Get Started</button>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +56,6 @@ const Hero = () => {
                                     <h1>Acquire Practical skills and not just certificates</h1>
                                     <p>We are passionate about human capacity building and revisiting the traditional learning
                                         system to meet the requirements of our ever-changing world.</p>
-                                    <button className="btn btn-primary px-4 mt-3">Get Started</button>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +67,7 @@ const Hero = () => {
                                     <h1>Industry focused education leveraging advanced digital technologies</h1>
                                     <p>We leverage an industry-based curriculum to proffer solutions to contemporary problems
                                         in the energy and digital technology industry</p>
-                                    <button className="btn btn-primary px-4 mt-3">Get Started</button>
+                                    {/* <button className="btn btn-primary px-4 mt-3">Get Started</button> */}
                                 </div>
                             </div>
                         </div>
@@ -78,10 +76,9 @@ const Hero = () => {
                         <div className="hero-bg hero-bg-five">
                             <div className="container">
                                 <div className='slider-content'>
-                                    <h1> A hybrid learning experience that is affordable, Flexible and Industry-focused</h1>
+                                    <h1> A hybrid learning experience that is affordable, flexible and industry-focused</h1>
                                     <p>You do not have to leave your comfort place to take our programs. We provide a flexible
                                         learning experience with minimum distractions to your already busy schedule.</p>
-                                    <button className="btn btn-primary px-4 mt-3">Get Started</button>
                                 </div>
                             </div>
                         </div>
@@ -95,7 +92,6 @@ const Hero = () => {
                                         partnership with experienced facilitators from industry experts and institutions locally and
                                         globally
                                     </p>
-                                    <button className="btn btn-primary">Get Started</button>
                                 </div>
                             </div>
                         </div>

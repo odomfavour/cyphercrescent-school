@@ -3,6 +3,7 @@
     width: 70px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: top;
 }
 
 .testimony-section {
@@ -14,7 +15,7 @@
     background: #fff;
     padding: 30px;
     border-radius: 12px;
-    min-height: 300px;
+    min-height: 230px;
     position: relative;
 }
 
