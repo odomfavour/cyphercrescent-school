@@ -53,7 +53,7 @@ const Hero = () => {
                         <div className="hero-bg hero-bg-one">
                             <div className="container">
                                 <div className='slider-content'>
-                                    <h1>Acquire Practical skills and not just certificates</h1>
+                                    <h1>Acquire practical skills and not just certificates</h1>
                                     <p>We are passionate about human capacity building and revisiting the traditional learning
                                         system to meet the requirements of our ever-changing world.</p>
                                 </div>

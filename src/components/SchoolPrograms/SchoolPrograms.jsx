@@ -13,7 +13,7 @@ const SchoolPrograms = () => {
     return (
         <section id="programs-section">
             <div className="container">
-                <h2 className='mt-5 text-center section-heading'>CypherCrescent Industry School programs</h2>
+                <h2 className='mt-5 text-center section-heading'>CypherCrescent Industry School Programs</h2>
                 <div className="my-5">
                     <div className="row">
                         {programs.map((program) => (
