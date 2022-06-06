@@ -3,7 +3,7 @@ import PageWrapper from '../../layout/PageWrapper/PageWrapper'
 import './about.css'
 import vision from '../../images/vision-one.jpg'
 import mission from '../../images/mission.png'
-import logo from '../../images/c-logo.png'
+import logo from '../../images/logo-one.jpg'
 
 const About = () => {
     return (
@@ -23,7 +23,7 @@ const About = () => {
                     <div className="container">
                         <div className="mb-5">
                             <div className="row">
-                                <div className="col-md-6">
+                                <div className="col-md-6 d-flex align-items-center justify-content-center">
                                     <img src={logo} alt="cyphercrescent logo" className='img-fluid' />
                                 </div>
                                 <div className="col-md-6 d-flex align-items-center">
@@ -86,7 +86,7 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="">
+                        {/* <div className="">
                             <h4>We also do the following:</h4>
                             <ul>
                                 <li>Structured Training (Certificates, Diploma, MSc,)</li>
@@ -95,7 +95,7 @@ const About = () => {
                                 <li>Research & Development (Digital technology development for sustainable development & tackling typical industry challenges)</li>
                                 <li>Entrepreneurship (Developing Innovation, Commercialisation and Entrepreneurial ecosystems, Innovation hubs etc.)</li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
