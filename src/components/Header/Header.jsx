@@ -3,6 +3,7 @@ import './header.css'
 import { NavLink, useLocation } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import logo from '../../images/CCLD.png'
+import { BsBoxArrowUpRight } from 'react-icons/bs';
 
 const Header = () => {
     const routePath = useLocation();
@@ -34,9 +35,9 @@ const Header = () => {
                 <Navbar.Collapse id="navbarScroll">
                     <div className="ms-auto">
                         <Nav className="top-nav d-flex justify-content-end">
-                            <Nav.Link href="https://ccl-flamingo-dev.netlify.app/" target='_blank'>Energy Services</Nav.Link>
-                            <Nav.Link href="http://www.cyphercrescent.tech/" target='_blank'>Information Technology</Nav.Link>
-                            <Nav.Link href="http://www.cyphercrescent.com.ng" target='_blank'>CypherCrescent E&P</Nav.Link>
+                            <Nav.Link href="https://ccl-flamingo-dev.netlify.app/" target='_blank'>Energy Services <BsBoxArrowUpRight/></Nav.Link>
+                            <Nav.Link href="http://www.cyphercrescent.tech/" target='_blank'>Information Technology <BsBoxArrowUpRight/></Nav.Link>
+                            <Nav.Link href="http://www.cyphercrescent.com.ng" target='_blank'>CypherCrescent E&P <BsBoxArrowUpRight/></Nav.Link>
                         </Nav>
                         <Nav
                             className="ms-auto my-2 my-lg-0"

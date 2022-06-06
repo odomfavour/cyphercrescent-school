@@ -16,6 +16,15 @@
     padding-top: 100px;
 }
 
+.vision-box {
+    text-align: center;
+}
+
+.vision-box img {
+    height: 623px;
+    border-radius: 15px;
+}
+
 .centered-box {
     min-height: 550px;
     color: #fff;
