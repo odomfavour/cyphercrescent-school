@@ -38,3 +38,9 @@
     }
     
 }
+
+@media (max-width: 426px) {
+    .testimonial-card {
+        min-height: 420px;
+    }
+}

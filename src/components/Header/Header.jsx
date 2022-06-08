@@ -26,7 +26,7 @@ const Header = () => {
     // window.addEventListener('scroll', changeNavbarColor);
     // className={colorChange ? 'topbar_inner py-3' : ' py-3'}
     return (
-        <Navbar expand="lg" fixed="top" className='py-3'>
+        <Navbar expand="lg" fixed="top" className='py-1'>
             <Container>
                 <Navbar.Brand href="/">
                     <img src={logo} alt="" className='img-fluid logo' />

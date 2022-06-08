@@ -4,7 +4,7 @@
 
 .navbar .nav-link {
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 10px;
     /* color: #fff !important; */
     color: #000;
 }
@@ -25,7 +25,27 @@
 
 .top-nav a {
     font-size: 14px;
+    display: inline-block;
+    position: relative;
 }
+
+.top-nav a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #002B8E;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .top-nav a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 .top-nav svg {
     font-weight: 600 !important;

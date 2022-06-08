@@ -49,6 +49,10 @@
 .slider-content {
     padding-top: 200px;
     width: 60%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider-content h1 {
@@ -256,6 +260,35 @@
     text-align: center;
 }
 
+.scheme-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.section-heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.partner-slider {
+    background: #bbe3ef;
+}
+
+
+@media (max-width: 769px) {
+    .slider-content {
+        width: 80%;
+        padding-top: 150px;
+    }
+
+    .slider-content h1 {
+        font-size: 35px;
+    }
+
+    .section-heading {
+        font-size: 30px;
+    }
+}
 
 @media (max-width: 428px) {
     .why-section h1 {
@@ -298,35 +331,5 @@
 
     .counts .count-number {
         font-size: 36px;
-    }
-}
-
-.scheme-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.section-heading {
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.partner-slider {
-    background: #bbe3ef;
-}
-
-
-@media (max-width: 769px) {
-    .slider-content {
-        width: 80%;
-        padding-top: 150px;
-    }
-
-    .slider-content h1 {
-        font-size: 35px;
-    }
-
-    .section-heading {
-        font-size: 30px;
     }
 }

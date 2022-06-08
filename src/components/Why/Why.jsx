@@ -13,7 +13,7 @@ const Why = () => {
             <section className="py-5"></section>
             <section className='why-section'>
                 <div className="container">
-                    <h1 className='pt-5'>Why Industry School?</h1>
+                    <h1 className='pt-5'>Why Us?</h1>
                     <div className="reasons py-5">
                         <div className="row mb-3">
                             <div className="col-lg-3 col-md-6 col-12 mb-3">

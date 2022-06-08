@@ -60,6 +60,8 @@
     width: 30%;
 }
 
-.video img {
-   
+@media (max-width: 426px) {
+    .news-card {
+        padding: 20px 8px;
+    }
 }
