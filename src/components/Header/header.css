@@ -9,6 +9,10 @@
     color: #000;
 }
 
+.bottom-nav a {
+    font-size: 15px !important;
+}
+
 .navbar-light .navbar-brand {
     color: #fff !important;
 }
@@ -24,7 +28,7 @@
 }
 
 .top-nav a {
-    font-size: 14px;
+    font-size: 12px;
     display: inline-block;
     position: relative;
 }

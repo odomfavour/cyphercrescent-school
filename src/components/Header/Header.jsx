@@ -40,7 +40,7 @@ const Header = () => {
                             <Nav.Link href="http://www.cyphercrescent.com.ng" target='_blank'>CypherCrescent E&P <BsBoxArrowUpRight/></Nav.Link>
                         </Nav>
                         <Nav
-                            className="ms-auto my-2 my-lg-0"
+                            className="ms-auto my-2 my-lg-0 bottom-nav"
                             navbarScroll
                         >
                             <NavLink to="/" className="nav-link">Home</NavLink>
