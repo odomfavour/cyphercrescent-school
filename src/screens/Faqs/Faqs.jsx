@@ -10,18 +10,18 @@ const Faqs = () => {
     const [appFaq, setAppFaq] = useState(true);
     const [reqFaq, setReqFaq] = useState(false);
     const [somFaq, setSomFaq] = useState(false);
-    const openReqFaq = () => {
-        setAppFaq(false); setSomFaq(false);
-        setReqFaq(true);
-    }
+    // const openReqFaq = () => {
+    //     setAppFaq(false); setSomFaq(false);
+    //     setReqFaq(true);
+    // }
     const openAppFaq = () => {
         setAppFaq(true); setSomFaq(false);
         setReqFaq(false);
     }
-    const openSomFaq = () => {
-        setAppFaq(false); setSomFaq(true);
-        setReqFaq(false);
-    }
+    // const openSomFaq = () => {
+    //     setAppFaq(false); setSomFaq(true);
+    //     setReqFaq(false);
+    // }
 
     return (
         <PageWrapper>
@@ -71,7 +71,7 @@ const Faqs = () => {
                                                 <p>Questions about applying for CypherCrescent can be found here</p>
                                             </div>
                                         </div>
-                                        <div className="d-flex align-items-center question-section" onClick={openReqFaq} role="button">
+                                        {/* <div className="d-flex align-items-center question-section" onClick={openReqFaq} role="button">
                                             <div className="icon me-3">
                                                 <BsFillInfoCircleFill className={reqFaq ? "red" : ""}/>
                                             </div>
@@ -88,7 +88,7 @@ const Faqs = () => {
                                                 <h4>Other Faqs</h4>
                                                 <p>other Questions about CypherCrescent can be found here</p>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </section>
                                 </div>
                                 <div className="col-md-7">

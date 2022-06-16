@@ -1,7 +1,7 @@
 import React from 'react'
 import PageWrapper from '../../layout/PageWrapper/PageWrapper'
 import './about.css'
-import vision from '../../images/vision-one.jpg'
+// import vision from '../../images/vision-one.jpg'
 import mission from '../../images/mission.png'
 import logo from '../../images/logo-one.jpg'
 import industryTraining from '../../images/about/industry-training.jpeg'
@@ -59,47 +59,7 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="mb-5">
-                            <div className="row">
-                                <div className="col-md-6 d-flex align-items-center">
-                                    <div>
-                                        <h2 className='section-heading'>Our Vision</h2>
-                                        <p>A centre of excellence for upskilling and reskilling professionals in the industry, government,
-                                            and higher institution </p>
-                                    </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="vision-box">
-                                        <img src={vision} alt="cyphercrescent vison" className='img-fluid' />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="mb-5">
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <img src={mission} alt="cyphercrescent mission" className='img-fluid' />
-                                </div>
-                                <div className="col-md-6 d-flex align-items-center">
-                                    <div>
-                                        <h2 className='section-heading'>Our Mission</h2>
-                                        <p>To create a uniquely practical learning experience for professionals to solve emerging local
-                                            and global challenges by leveraging people, processes, and technology. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/* <div className="">
-                            <h4>We also do the following:</h4>
-                            <ul>
-                                <li>Structured Training (Certificates, Diploma, MSc,)</li>
-                                <li>Industry Training (Continuing Education through short courses, in-house training, boot camps etc.)</li>
-                                <li>Capacity Building (Conferences, Symposia, Colloquia, Applied Technology Workshops; Publication of Books, Journals, Magazines, Blogs; Library and Information Services)</li>
-                                <li>Research & Development (Digital technology development for sustainable development & tackling typical industry challenges)</li>
-                                <li>Entrepreneurship (Developing Innovation, Commercialisation and Entrepreneurial ecosystems, Innovation hubs etc.)</li>
-                            </ul>
-                        </div> */}
-                        <div className="mt-4">
+                        <div className="my-4">
                             <h3 className='text-center my-4'>Our Cardinal Focus Area</h3>
                             <div className="row">
                                 <div className="col-md-4">
@@ -122,6 +82,53 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="my-5">
+                            <div className="row">
+                                <div className="col-md-6 d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <div className='mb-5'>
+                                            <h2 className='section-heading'>Our Vision</h2>
+                                            <p>A centre of excellence for upskilling and reskilling professionals in the industry, government,
+                                                and higher institution </p>
+                                        </div>
+                                        <div className='mt-5 pt-5'>
+                                            <h2 className='section-heading'>Our Mission</h2>
+                                            <p>To create a uniquely practical learning experience for professionals to solve emerging local
+                                                and global challenges by leveraging people, processes, and technology. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="vision-box">
+                                        <img src={mission} alt="cyphercrescent vison" className='img-fluid' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <div className="mb-5">
+                            <div className="row">
+                                <div className="col-md-6">
+                                    <img src={mission} alt="cyphercrescent mission" className='img-fluid' />
+                                </div>
+                                <div className="col-md-6 d-flex align-items-center">
+                                    <div>
+                                        <h2 className='section-heading'>Our Mission</h2>
+                                        <p>To create a uniquely practical learning experience for professionals to solve emerging local
+                                            and global challenges by leveraging people, processes, and technology. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
+                        {/* <div className="">
+                            <h4>We also do the following:</h4>
+                            <ul>
+                                <li>Structured Training (Certificates, Diploma, MSc,)</li>
+                                <li>Industry Training (Continuing Education through short courses, in-house training, boot camps etc.)</li>
+                                <li>Capacity Building (Conferences, Symposia, Colloquia, Applied Technology Workshops; Publication of Books, Journals, Magazines, Blogs; Library and Information Services)</li>
+                                <li>Research & Development (Digital technology development for sustainable development & tackling typical industry challenges)</li>
+                                <li>Entrepreneurship (Developing Innovation, Commercialisation and Entrepreneurial ecosystems, Innovation hubs etc.)</li>
+                            </ul>
+                        </div> */}
                     </div>
                 </div>
             </section>
