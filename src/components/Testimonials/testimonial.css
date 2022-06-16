@@ -15,7 +15,7 @@
     background: #fff;
     padding: 30px;
     border-radius: 12px;
-    min-height: 230px;
+    min-height: 250px;
     position: relative;
 }
 
@@ -34,13 +34,13 @@
 
 @media (max-width: 768px) {
     .testimonial-card {
-        min-height: 320px;
+        min-height: 380px;
     }
     
 }
 
 @media (max-width: 426px) {
     .testimonial-card {
-        min-height: 420px;
+        min-height: 360px;
     }
 }

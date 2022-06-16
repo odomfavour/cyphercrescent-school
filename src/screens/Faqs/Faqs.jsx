@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './faq.css'
 import { faqs } from './faq'
 import PageWrapper from '../../layout/PageWrapper/PageWrapper'
@@ -7,6 +7,22 @@ import { Accordion } from 'react-bootstrap'
 import { BsFillInfoCircleFill } from 'react-icons/bs'
 
 const Faqs = () => {
+    const [appFaq, setAppFaq] = useState(true);
+    const [reqFaq, setReqFaq] = useState(false);
+    const [somFaq, setSomFaq] = useState(false);
+    const openReqFaq = () => {
+        setAppFaq(false); setSomFaq(false);
+        setReqFaq(true);
+    }
+    const openAppFaq = () => {
+        setAppFaq(true); setSomFaq(false);
+        setReqFaq(false);
+    }
+    const openSomFaq = () => {
+        setAppFaq(false); setSomFaq(true);
+        setReqFaq(false);
+    }
+
     return (
         <PageWrapper>
             <section className="pt-200 faq-page">
@@ -46,43 +62,43 @@ const Faqs = () => {
                             <div className="row">
                                 <div className="col-md-5">
                                     <section className="question-tags">
-                                        <div className="d-flex align-items-center question-section">
+                                        <div className="d-flex align-items-center question-section" onClick={openAppFaq} role="button">
                                             <div className="icon me-3">
-                                                <BsFillInfoCircleFill />
+                                                <BsFillInfoCircleFill className={appFaq ? "red" : ""}/>
                                             </div>
                                             <div className="info">
                                                 <h4>Application Process</h4>
                                                 <p>Questions about applying for CypherCrescent can be found here</p>
                                             </div>
                                         </div>
-                                        <div className="d-flex align-items-center question-section">
+                                        <div className="d-flex align-items-center question-section" onClick={openReqFaq} role="button">
                                             <div className="icon me-3">
-                                                <BsFillInfoCircleFill />
+                                                <BsFillInfoCircleFill className={reqFaq ? "red" : ""}/>
                                             </div>
                                             <div className="info">
                                                 <h4>CypherCrescent Requirement</h4>
                                                 <p>Questions about applying for CypherCrescent can be found here</p>
                                             </div>
                                         </div>
-                                        <div className="d-flex align-items-center question-section">
+                                        <div className="d-flex align-items-center question-section" onClick={openSomFaq} role="button">
                                             <div className="icon me-3">
-                                                <BsFillInfoCircleFill />
+                                                <BsFillInfoCircleFill className={somFaq ? "red" : ""}/>
                                             </div>
                                             <div className="info">
-                                                <h4>CypherCrescent Requirement</h4>
-                                                <p>Questions about applying for CypherCrescent can be found here</p>
+                                                <h4>Other Faqs</h4>
+                                                <p>other Questions about CypherCrescent can be found here</p>
                                             </div>
                                         </div>
                                     </section>
                                 </div>
                                 <div className="col-md-7">
-                                    <section className=''>
+                                    {appFaq ? <section className=''>
                                         <div className="d-flex align-items-center question-section">
                                             <div className="icon me-3">
-                                                <BsFillInfoCircleFill />
+                                                <BsFillInfoCircleFill className={appFaq ? "red" : ""}/>
                                             </div>
                                             <div className="info">
-                                                <h4>CypherCrescent Requirement</h4>
+                                                <h4>CypherCrescent Application</h4>
                                                 <p>Questions about applying for CypherCrescent can be found here</p>
                                             </div>
                                         </div>
@@ -96,7 +112,50 @@ const Faqs = () => {
                                                 </Accordion.Item>
                                             ))}
                                         </Accordion>
-                                    </section>
+                                    </section> : ''}
+                                    {reqFaq ? <section className=''>
+                                        <div className="d-flex align-items-center question-section">
+                                            <div className="icon me-3">
+                                                <BsFillInfoCircleFill className={reqFaq ? "red" : ""}/>
+                                            </div>
+                                            <div className="info">
+                                                <h4>CypherCrescent Requirement</h4>
+                                                <p>Questions about requirements for CypherCrescent can be found here</p>
+                                            </div>
+                                        </div>
+                                        <Accordion defaultActiveKey="0">
+                                            {faqs.map((faq) => (
+                                                <Accordion.Item eventKey={faq.id - 1} key={faq.id}>
+                                                    <Accordion.Header><span className='faq-question'>{faq.question}</span></Accordion.Header>
+                                                    <Accordion.Body>
+                                                        <p dangerouslySetInnerHTML={{ __html: faq.answer }}></p>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+                                            ))}
+                                        </Accordion>
+                                    </section> : ''}
+                                    {somFaq ? <section className=''>
+                                        <div className="d-flex align-items-center question-section">
+                                            <div className="icon me-3">
+                                                <BsFillInfoCircleFill className={somFaq ? "red" : ""}/>
+                                            </div>
+                                            <div className="info">
+                                                <h4>CypherCrescent Requirement</h4>
+                                                <p>Questions about some other things about CypherCrescent can be found here</p>
+                                            </div>
+                                        </div>
+                                        <Accordion defaultActiveKey="0">
+                                            {faqs.map((faq) => (
+                                                <Accordion.Item eventKey={faq.id - 1} key={faq.id}>
+                                                    <Accordion.Header><span className='faq-question'>{faq.question}</span></Accordion.Header>
+                                                    <Accordion.Body>
+                                                        <p dangerouslySetInnerHTML={{ __html: faq.answer }}></p>
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+                                            ))}
+                                        </Accordion>
+                                    </section> : ''}
+
                                 </div>
                             </div>
                         </div>

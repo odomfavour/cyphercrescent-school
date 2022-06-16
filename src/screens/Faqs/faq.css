@@ -15,6 +15,10 @@
 
 }
 
+.red {
+    color: red !important;
+}
+
 .text-blue {
     color: #002B8E !important;
 }

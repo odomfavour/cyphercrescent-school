@@ -1,9 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { news } from '../ProgramData/ProgramData'
 import './news.css'
 
 const News = () => {
+    const navigate = useNavigate();
+    const openNews = (news) => {
+        localStorage.setItem('news', JSON.stringify(news));
+        navigate('/single-news');
+    }
     return (
         <section className='py-5'>
             <div className="container">
@@ -14,7 +19,7 @@ const News = () => {
                 <div className="py-4">
                     <div className="row">
                         {news.map((newsItem, index) => (
-                            <div className="col-lg-4 col-md-6 col-12">
+                            <div className="col-lg-4 col-md-6 col-12" key={newsItem.id}>
                                 <div className="news-card h-100">
                                     <div className="news-img text-center">
                                         <img src={newsItem.image} alt="" className='img-fluid' />
@@ -27,7 +32,7 @@ const News = () => {
                                         <h5>{newsItem.title}</h5>
                                         <p>{newsItem.shortDescription}</p>
                                         <div className="d-flex justify-content-end py-3">
-                                            <Link to="/single-news" className='text-blue'>read more</Link>
+                                            <button onClick={() => { openNews(newsItem) }} className='btn btn-primary' >read more</button>
                                         </div>
                                     </div>
                                 </div>

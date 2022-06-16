@@ -4,6 +4,9 @@ import './about.css'
 import vision from '../../images/vision-one.jpg'
 import mission from '../../images/mission.png'
 import logo from '../../images/logo-one.jpg'
+import industryTraining from '../../images/about/industry-training.jpeg'
+import structuredTraining from '../../images/about/structured-training.jpeg'
+import capacityBuillding from '../../images/about/capacity-building.jpeg'
 
 const About = () => {
     return (
@@ -35,12 +38,12 @@ const About = () => {
                                             practical skill gap in the E&P industry, allowing industry professionals to earn an academic degree
                                             or industry certification in recognition of the skills, knowledge, and experience garnered while
                                             working</p> */}
+                                        <p>CypherCrescent L&D is a subsidiary of the CypherCrescent Group that runs an Industry School operationalising Triple Helix of partnership with Government (MDAs)-Academia-Industry with a strong niche for driving innovation and solving practical industry problems.</p>
                                         <p>
                                             CypherCrescent is an applied research & development company with core expertise in mathematical modelling, information technology, petroleum engineering, geosciences, software development, machine learning, and human capacity development.</p>
 
                                         <p>Launched in 2012, CypherCrescent, has expanded and diversified its services across four subsidiaries that offer integrated technology services across the E&P, Education, Information Technology, and Enterprise Energy Transition industries. With its growing client base, the company remains committed to providing cost-effective technology services and business intelligence solutions that offer a collaborative platform and improve operational excellence through optimal allocation of resources and eliminating non-productive time (NPT).</p>
 
-                                        <p>CypherCrescent L&D is a subsidiary of the CypherCrescent Group that runs an Industry School operationalising Triple Helix of partnership with Government (MDAs)-Academia-Industry with a strong niche for driving innovation and solving practical industry problems.</p>
                                     </div>
                                 </div>
                             </div>
@@ -96,6 +99,29 @@ const About = () => {
                                 <li>Entrepreneurship (Developing Innovation, Commercialisation and Entrepreneurial ecosystems, Innovation hubs etc.)</li>
                             </ul>
                         </div> */}
+                        <div className="mt-4">
+                            <h3 className='text-center my-4'>Our Cardinal Focus Area</h3>
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <div className="about-img">
+                                        <img src={industryTraining} alt="cyphercrescent about" className='img-fluid' />
+                                    </div>
+                                    <h4 className='text-center mt-3'>Industry Training</h4>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="about-img">
+                                        <img src={structuredTraining} alt="cyphercrescent about" className='img-fluid' />
+                                    </div>
+                                    <h4 className='text-center mt-3'>Structured Training</h4>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="about-img">
+                                        <img src={capacityBuillding} alt="cyphercrescent about" className='img-fluid' />
+                                    </div>
+                                    <h4 className='text-center mt-3'>Capacity Building</h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -6,9 +6,14 @@ import PageWrapper from '../../layout/PageWrapper/PageWrapper'
 import { FaClock } from 'react-icons/fa'
 import './news.css'
 import { news } from '../../components/ProgramData/ProgramData'
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const News = () => {
+    const navigate = useNavigate();
+    const openNews = (news) => {
+        localStorage.setItem('news', JSON.stringify(news));
+        navigate('/single-news');
+    }
     return (
         <PageWrapper>
             <section id="news-page" className='pt-200'>
@@ -26,7 +31,7 @@ const News = () => {
                                             <h6 className='pt-3'>{newsItem.tip} <span>- Tue 11, April 2022</span></h6>
                                             <h5>{newsItem.title}</h5>
                                             <p>{newsItem.shortDescription}</p>
-                                            <Link to="/single-news" className="btn btn-primary mt-4">Read More</Link>
+                                            <button className="btn btn-primary mt-4" onClick={() => {openNews(newsItem)}}>Read More</button>
                                         </div>
                                     </div>
                                 ))}

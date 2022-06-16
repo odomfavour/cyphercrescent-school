@@ -33,6 +33,10 @@
     position: relative;
 }
 
+.top-nav a:hover {
+    font-weight: 800;
+}
+
 .top-nav a:after {
     content: '';
     position: absolute;
@@ -53,6 +57,24 @@
 
 .top-nav svg {
     font-weight: 600 !important;
+}
+
+.bottom-nav a {
+    position: relative;
+    display: inline-block;
+    transition: 0.25s ease all;
+}
+
+.bottom-nav a.active:after, .bottom-nav a:hover:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    /* transform: scaleX(0); */
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transition: 0.25s ease all;
 }
 
 @media (max-width: 428px) {
