@@ -14,6 +14,24 @@ import news1 from '../../images/news-1.png'
 import news2 from '../../images/news-2.png'
 import news3 from '../../images/news-3.png'
 
+// import images for the clients
+import aust from '../../images/about/AUST.png'
+import coe from '../../images/about/COE.png'
+import coou from '../../images/about/COOU.png'
+import eroton from '../../images/about/EROTON.png'
+import futminna from '../../images/about/FUTMINNA.png'
+import futo from '../../images/about/FUTO.png'
+import idsl from '../../images/about/IDSL_.png'
+import ips from '../../images/about/IPS.png'
+import ndWestern from '../../images/about/ND_WESTERN.png'
+import nile from '../../images/about/NILE.png'
+import nnpc from '../../images/about/NNPC.png'
+import pti from '../../images/about/PTI.png'
+import spe from '../../images/about/SPE.png'
+import uniben from '../../images/about/UNIBEN.png'
+import unilag from '../../images/about/UNILAG.png'
+import uniport from '../../images/about/UNIPORT.png'
+
 
 export const programs = [
     {
@@ -193,4 +211,87 @@ export const news = [
         "image": news3,
 
     }
+]
+
+export const partners = [
+    {
+        "id" : 1,
+        "name" : "aust",
+        "image" : aust,
+    },
+    {
+        "id" : 2,
+        "name" : "coe",
+        "image" : coe,
+    },
+    {
+        "id" : 3,
+        "name" : "coou",
+        "image" : coou,
+    },
+    {
+        "id" : 4,
+        "name" : "eroton",
+        "image" : eroton,
+    },
+    {
+        "id" : 5,
+        "name" : "futminna",
+        "image" : futminna,
+    },
+    {
+        "id" : 6,
+        "name" : "futo",
+        "image" : futo,
+    },
+    {
+        "id" : 7,
+        "name" : "idsl",
+        "image" : idsl,
+    },
+    {
+        "id" : 8,
+        "name" : "ips",
+        "image" : ips,
+    },
+    {
+        "id" : 9,
+        "name" : "nd-western",
+        "image" : ndWestern,
+    },
+    {
+        "id" : 10,
+        "name" : "nile",
+        "image" : nile,
+    },
+    {
+        "id" : 11,
+        "name" : "nnpc",
+        "image" : nnpc,
+    },
+    {
+        "id" : 12,
+        "name" : "pti",
+        "image" : pti,
+    },
+    {
+        "id" : 13,
+        "name" : "spe",
+        "image" : spe,
+    },
+    {
+        "id" : 14,
+        "name" : "uniben",
+        "image" : uniben,
+    },
+    {
+        "id" : 15,
+        "name" : "unilag",
+        "image" : unilag,
+    },
+    {
+        "id" : 16,
+        "name" : "uniport",
+        "image" : uniport,
+    },
 ]

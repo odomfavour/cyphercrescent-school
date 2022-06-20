@@ -1,6 +1,4 @@
 import React from 'react'
-// import scheme from '../../images/scheme.png'
-// import check from '../../images/check.png'
 
 // Import Swiper React components
 import { Autoplay, Navigation, } from 'swiper';
@@ -10,38 +8,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; // core Swiper
 // import 'swiper/modules/autoplay/autoplay.min.css'; // core Swiper
 
-// import adax from '../../images/adax-1.png'
-// import agip from '../../images/AGIP.png'
-// import belema from '../../images/belemaoil-1.png'
-// import Conoil from '../../images/conoil-1.png'
-import Eroton from '../../images/erotron-1.png'
-// import FIRST from '../../images/FIRST.png'
-// import NAPIMS from '../../images/NAPIMS.png'
-import nd from '../../images/nd-1.png'
-import NNPC from '../../images/nnpc-1.png'
-// import NPDC from '../../images/NPDC.png'
-// import ROCK from '../../images/ROCK.png'
-import SEPLAT from '../../images/seplat-1.png'
-import SPE from '../../images/spe-1.png'
-import resolve from '../../images/resolve.png'
-// import SUNTERA from '../../images/SUNTERA.png'
-import futo from '../../images/school-icons/futo.png'
-import nile from '../../images/school-icons/nile.png'
-import ojukwu from '../../images/school-icons/ojukwu.png'
-import uniport from '../../images/school-icons/uniport.png'
-import aust from '../../images/school-icons/aust.png'
-import futMinna from '../../images/school-icons/fut-minna.png'
-import WAEP from '../../images/waep-1.png'
+import { partners } from '../ProgramData/ProgramData';
 
 const LearningScheme = () => {
     return (
         <section className='py-5'>
             <h3 className='text-center section-heading'>Ours Clients</h3>
-            <div className="py-5 partner-slider">
+            <div className="py-5">
                 <Swiper
                     modules={[Autoplay, Navigation]}
                     slidesPerView={9}
-                    spaceBetween={10}
+                    spaceBetween={30}
                     speed={2000}
                     navigation
                     loop={true}
@@ -49,14 +26,14 @@ const LearningScheme = () => {
                     autoplay
                     breakpoints={{
                         320: {
-                            slidesPerView: 2,
+                            slidesPerView: 3,
                         },
                         427: {
-                            slidesPerView: 2,
+                            slidesPerView: 3,
                         },
                         // when window width is <= 999px
                         768: {
-                            slidesPerView: 4,
+                            slidesPerView: 5,
                         },
                         999: {
                             slidesPerView: 9,
@@ -66,71 +43,13 @@ const LearningScheme = () => {
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                 >
-                    <SwiperSlide>
+                    {partners.map((partner, index) => (
+                        <SwiperSlide key={partner.id}>
                         <div className="partner">
-                            <img src={futMinna} alt="" className='img-fluid' />
+                            <img src={partner.image} alt={partner.name} className='img-fluid' />
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={futo} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={ojukwu} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={SEPLAT} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={WAEP} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={nd} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={Eroton} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={NNPC} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={uniport} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={aust} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={nile} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={SPE} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="partner">
-                            <img src={resolve} alt="" className='img-fluid' />
-                        </div>
-                    </SwiperSlide>
+                    ))}                   
                 </Swiper>
             </div>
             {/* <div className="py-5 mt-3 scheme-section">
