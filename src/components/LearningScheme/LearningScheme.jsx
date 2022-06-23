@@ -13,7 +13,7 @@ import { partners } from '../ProgramData/ProgramData';
 const LearningScheme = () => {
     return (
         <section className='py-5'>
-            <h3 className='text-center section-heading'>Ours Clients</h3>
+            <h3 className='text-center section-heading'>Our Clients</h3>
             <div className="py-5">
                 <Swiper
                     modules={[Autoplay, Navigation]}
