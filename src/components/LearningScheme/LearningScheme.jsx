@@ -40,8 +40,8 @@ const LearningScheme = () => {
                         },
 
                     }}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
+                    // onSlideChange={() => console.log('slide change')}
+                    // onSwiper={(swiper) => console.log(swiper)}
                 >
                     {partners.map((partner, index) => (
                         <SwiperSlide key={partner.id}>

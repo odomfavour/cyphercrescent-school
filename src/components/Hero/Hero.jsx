@@ -37,8 +37,6 @@ const Hero = () => {
                         },
 
                     }}
-                    onSlideChange={() => console.log('slide change')}
-                    onSwiper={(swiper) => console.log(swiper)}
                 >
                     <SwiperSlide>
                         <div className="hero-bg hero-bg-three">

@@ -54,8 +54,6 @@ const Testimonials = () => {
                                 },
 
                             }}
-                            onSlideChange={() => console.log('slide change')}
-                            onSwiper={(swiper) => console.log(swiper)}
                         >
                             <SwiperSlide>
                                 <div className="testimonial-card h-100">
