@@ -40,7 +40,7 @@ export const programs = [
         "description" : "This course is designed to equip participants with the understanding of reservoir performance analysis and introduces them to material balance and decline curve analysis methods of assessing reservoir performance. ",
         "image" : reservoir,
         "price": 2000,
-        "location": [{place: "virtual", price: 2000}, {place: "Lagos", price: 4000}, {place: "Aberdeen & Malaysia", price: 5000}],
+        "location": [{place: "virtual", price: 2000, link: "https://paystack.com/buy/reservoir-performance-analysis-rbwxkf"}, {place: "Lagos", price: 4000, link: "https://paystack.com/buy/reservoir-performance-analysis-rbwxkf"}, {place: "Aberdeen & Malaysia", price: 5000, link: "https://paystack.com/buy/reservoir-performance-analysis-rbwxkf"}],
         "objectives": "<li> Develop dexterity in reservoir performance analysis </li> <li>Understand the physics underpinning material balance and decline curve analysis </li> <li>Use material balance and DCA methods to efficiently monitor the reservoir performance</li> <li>Determine the parameters that impact well/reservoir performance</li> <li>Use of fractional flow equations </li> <li> Use python programming to perform reservoir analysis</li>",
         "trainingFor":"This training is structured to provide an accelerated learning path for engineers who aspire to have a firm grip of petroleum engineering.",
         "professionals": "<li>Reservoir engineers</li> <li>Geologists</li> <li>Petrophysicists</li> <li>Production Technology Engineers</li> <li>Production Technicians</li> <li> Completion and Well Intervention Engineers</li>",
@@ -201,7 +201,7 @@ export const news = [
     {
         "id" : 2,
         "tip" : "Industry school",
-        "title" : "CypherCrescent launches industry school, appoints Tomabari as Managing Director of its new subsidiary",
+        "title" : "CypherCrescent launches industry school, appoints Tombari as Managing Director of its new subsidiary",
         "shortDescription" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
         "body" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
         "image": news2,
@@ -209,7 +209,7 @@ export const news = [
     {
         "id" : 3,
         "tip" : "Industry school",
-        "title" : "CypherCrescent launches industry school, appoints Tomabari as Managing Director of its new subsidiary",
+        "title" : "CypherCrescent launches industry school, appoints Tombari as Managing Director of its new subsidiary",
         "shortDescription" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
         "body" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
         "image": news3,
