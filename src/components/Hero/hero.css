@@ -192,9 +192,64 @@
     /* min-height: 400px; */
     /* padding: 20px; */
     border-radius: 8px;
-    perspective: 1000px;
+    /* perspective: 1000px; */
     cursor: pointer;
     height: 100%;
+    position: relative;
+    transition: 0.3s;
+}
+
+.school-program-inner {
+    height: auto;
+}
+
+.school-program::before {
+    content: "";
+    background: rgba(36, 135, 206, 0.6);
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 30px;
+    bottom: 30px;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+
+.school-program .card-back::before {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+
+.school-program .card-back::after {
+    display: block;
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+
+.school-program:hover::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
 }
 
 .school-program img {
@@ -208,38 +263,59 @@
     height: 600px
 }
 
-.school-program-inner {
+/* .school-program-inner {
     position: relative;
     width: 100%;
     height: 100%;
     text-align: center;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-}
+} */
 
-.school-program:hover .school-program-inner {
+/* .school-program:hover .school-program-inner {
     transform: rotateY(180deg);
-}
+} */
 
-.card-back {
+/* .card-back {
     background: #2ebae1;
     color: #fff;
     transform: rotateY(180deg);
     padding: 20px;
+} */
+
+.school-program .card-front {
+    position: relative;
+}
+
+.school-program:hover .card-front {
+    opacity: 0;
 }
 
 .school-program .card-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; */
     top: 0;
+    opacity: 0;
+    padding: 30px;
+    z-index: 3;
+    color: #fff;
 }
 
-.school-program:hover .card-front {
-    display: none;
+.school-program:hover .card-back {
+   opacity: 1;
 }
+
+/* .school-program:hover .card-back {
+    opacity: 1;
+} */
+
+
+/* .school-program:hover .card-front {
+    display: none;
+} */
 
 .card-front h3 {
     padding: 15px;
@@ -247,9 +323,18 @@
 }
 
 .card-back h3 {
-    padding-top: 40px;
     color: #fff;
     font-weight: 900;
+}
+
+.btn-outline-primary {
+    border-color: #002B8E !important;
+    color: #002B8E !important;
+}
+
+.btn-outline-primary:hover {
+    color: #fff !important;
+    background: #002B8E !important;
 }
 
 /* .partners {

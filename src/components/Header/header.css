@@ -77,6 +77,12 @@
     transition: 0.25s ease all;
 }
 
+@media (max-width: 769px) {
+    .bottom-nav a.active:after {
+        width: 10%;
+    }
+}
+
 @media (max-width: 428px) {
     /* .navbar {
         background-color: rgba(28, 25, 25, 0.7) !important;
@@ -85,6 +91,10 @@
     .topbar_inner {
         background-color: rgba(28, 25, 25, 0.7) !important;
         box-shadow: 0 0 30px rgb(0 0 0 / 10%)   !important;
+    }
+
+    .bottom-nav a.active:after {
+        width: 20%;
     }
 }
 

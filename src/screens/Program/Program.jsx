@@ -15,8 +15,8 @@ const Program = () => {
     const handleShowWaitListForm = () => setshowWaitListForm(true);
 
     const getPrice = (selectedLocation) => {
-       let a = programDetails.location.find(element => element.place === selectedLocation);    
-      return a.price
+        let a = programDetails.location.find(element => element.place === selectedLocation);
+        return a.price
     }
 
     // const handleClose = () => setShow(false);
@@ -63,7 +63,7 @@ const Program = () => {
                                     <p className='fw-bold'>Course will be available soon.</p>
                                     <a href="#link" className="btn btn-primary" onClick={handleShowWaitListForm}>Join waiting list</a> </div> : <div>
                                     <div className="d-flex">
-                                        <button className="btn btn-primary me-3">Make Reservation</button>
+                                        <button className="btn btn-outline-primary me-3">Make Reservation</button>
                                         {/* <button className="btn btn-primary" onClick={handleShow}>Pay for Course</button> */}
                                         <button className="btn btn-primary" onClick={() => { setButtonShow(true) }}>Pay for Course</button>
                                     </div>
@@ -101,7 +101,7 @@ const Program = () => {
                                             <p className='fw-bold'>Course will be available soon.</p>
                                             <a href="#link" className="btn btn-primary" onClick={handleShowWaitListForm}>Join waiting list</a> </div> : <div>
                                             <div className="d-flex">
-                                                <button className="btn btn-primary me-3">Make Reservation</button>
+                                                <button className="btn btn-outline-primary me-3">Make Reservation</button>
                                                 {/* <button className="btn btn-primary" onClick={handleShow}>Pay for Course</button> */}
                                                 <button className="btn btn-primary" onClick={() => { setButtonShow(true) }}>Pay for Course</button>
                                             </div>
@@ -121,7 +121,7 @@ const Program = () => {
                         </div>
                         {/* <Paystack show={show} handleClose={handleClose} amount={programDetails.price + "00"} courseName={programDetails.name} ProductLink={programDetails.link} /> */}
                         <WaitingForm show={showWaitListForm} handleClose={handleCloseWaitListForm} />
-                        <PayButtonModal show={buttonShow} handleClose={() => setButtonShow(false)} program={programDetails} selectedRadio={radioValue}/>
+                        <PayButtonModal show={buttonShow} handleClose={() => setButtonShow(false)} program={programDetails} selectedRadio={radioValue} />
                     </div>
                 </div>
             </section>
