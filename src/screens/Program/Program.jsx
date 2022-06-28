@@ -41,7 +41,7 @@ const Program = () => {
                                 <h2>{programDetails.name}</h2>
                                 <p>{programDetails.description}</p>
                                 {/* <h5 className='mt-3'>&#36; {programDetails.price}</h5> */}
-                                <h5 className='mt-3'>&#36; {programDetails.location ? getPrice(radioValue) : programDetails.price}</h5>
+                                <h5 className='mt-3'>&#36; {!programDetails.location ?programDetails.price: getPrice(radioValue)}</h5>
                                 {/* <p>Location: {programDetails.location}</p> */}
                                 {programDetails.location ? <div className='mb-3'>
                                     <p>Select your plan</p>
