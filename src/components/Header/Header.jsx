@@ -3,6 +3,7 @@ import './header.css'
 import { NavLink, useLocation } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import logo from '../../images/CCLD.png'
+// import logo from '../../images/about/cc-logo.png'
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 
 const Header = () => {

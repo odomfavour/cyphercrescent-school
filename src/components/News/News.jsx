@@ -13,7 +13,7 @@ const News = () => {
         <section className='py-5'>
             <div className="container">
                 <div className="text-center">
-                    <h3 className='section-heading'>Blog</h3>
+                    <h3 className='section-heading'>News</h3>
                     <p>Stay up to date with news from our Industry school</p>
                 </div>
                 <div className="py-4">

@@ -10,8 +10,8 @@ import wrfmOpt from '../../images/programs/WRFM-optimization.jpg'
 import prodSystem from '../../images/programs/production-system.jpg'
 import geology from '../../images/programs/geology.jpg'
 import landD from '../../images/programs/LandD.jpg'
-import news1 from '../../images/news-1.png'
-import news2 from '../../images/news-2.png'
+// import news1 from '../../images/news-1.png'
+// import news2 from '../../images/news-2.png'
 import news3 from '../../images/news-3.png'
 
 // import images for the clients
@@ -31,6 +31,10 @@ import spe from '../../images/about/SPE.png'
 import uniben from '../../images/about/UNIBEN.png'
 import unilag from '../../images/about/UNILAG.png'
 import uniport from '../../images/about/UNIPORT.png'
+
+// images for news
+import appoint from '../../images/about/appoint.jpeg'
+import websiteLaunch from '../../images/about/website-launch.jpeg'
 
 
 export const programs = [
@@ -194,23 +198,23 @@ export const news = [
         "id" : 1,
         "tip": "CypherCrescent Website",
         "title" : "The Long-awaited CypherCrescent Learning and Development website is Live",
-        "shortDescription" : "CypherCrescent Learning and Development Limited is pleased to announce the launch of her new website.Our website will serve as a digital space for us to provide our customers and visitors with an easier way to learn more about our learning programs and be updated with our news and instructional resources",
+        "shortDescription" : "CypherCrescent Learning and Development Limited is pleased to announce the launch of her new website. Our website will serve as a digital space for us to provide our customers and visitors with an easier way to learn more about our learning programs and be updated with our news and instructional resources",
         "body" : "CypherCrescent Learning and Development Limited is pleased to announce the launch of her new website.Our website will serve as a digital space for us to provide our customers and visitors with an easier way to learn more about our learning programs and be updated with our news and instructional resources",
-        "image" : news1,
+        "image" : websiteLaunch,
     },
     {
         "id" : 2,
         "tip" : "Industry school",
         "title" : "CypherCrescent launches industry school, appoints Tombari as Managing Director of its new subsidiary",
-        "shortDescription" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
+        "shortDescription" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school...",
         "body" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
-        "image": news2,
+        "image": appoint,
     },
     {
         "id" : 3,
         "tip" : "Industry school",
         "title" : "CypherCrescent launches industry school, appoints Tombari as Managing Director of its new subsidiary",
-        "shortDescription" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
+        "shortDescription" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school...",
         "body" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
         "image": news3,
     },

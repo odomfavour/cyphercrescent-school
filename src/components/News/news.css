@@ -2,3 +2,16 @@
     background: #FAFAFA;
     border-radius: 16px;
 }
+
+.news-img img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.news-image img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}

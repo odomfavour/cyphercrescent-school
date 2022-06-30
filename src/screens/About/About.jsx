@@ -7,6 +7,7 @@ import logo from '../../images/logo-one.jpg'
 import industryTraining from '../../images/about/industry-training.jpeg'
 import structuredTraining from '../../images/about/structured-training.jpeg'
 import capacityBuillding from '../../images/about/capacity-building.jpeg'
+import industrySchool from '../../images/about/is.jpg'
 
 const About = () => {
     return (
@@ -24,6 +25,30 @@ const About = () => {
                 </div>
                 <div className="main-section py-5">
                     <div className="container">
+
+                        <div className="my-4">
+                            <h3 className='text-center my-4'>Our Cardinal Focus Area</h3>
+                            <div className="row">
+                                <div className="col-md-4">
+                                    <div className="about-img">
+                                        <img src={industryTraining} alt="cyphercrescent about" className='img-fluid' />
+                                    </div>
+                                    <h4 className='text-center mt-3'>Industry Training</h4>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="about-img">
+                                        <img src={structuredTraining} alt="cyphercrescent about" className='img-fluid' />
+                                    </div>
+                                    <h4 className='text-center mt-3'>Structured Training</h4>
+                                </div>
+                                <div className="col-md-4">
+                                    <div className="about-img">
+                                        <img src={capacityBuillding} alt="cyphercrescent about" className='img-fluid' />
+                                    </div>
+                                    <h4 className='text-center mt-3'>Capacity Building</h4>
+                                </div>
+                            </div>
+                        </div>
                         <div className="mb-5">
                             <div className="row">
                                 <div className="col-md-6 d-flex align-items-center justify-content-center">
@@ -49,38 +74,23 @@ const About = () => {
                             </div>
                         </div>
                         <div className="mb-5">
-                            <h4>Our Industy School</h4>
-                            <div>
-                                <p>As a registered member of the international triple helix association, CypherCrescent industry school programmes are designed to run on the triple helix plus model, which entails a strategic collaboration between industry, government, academia, as well as reputable professional associations to fill the practical skill gaps in the energy and technology industry. Through the model, we can identify gaps in the Nigerian oil & gas industry and develop relevant technology skillsets to solve them, thereby fostering value creation in the Nigerian economy.</p>
-                                <p>This approach will engender research & development, birth innovations, and produce industry professionals with relevant skill sets to solve contemporary industry problems.</p>
-                                <p>Our industry school is dedicated to solving practical industry problems by educating and bridging the functional skill gap in the E&P industry, allowing industry professionals to earn an academic degree or industry certification in recognition of the skills, knowledge, and experience garnered while working.</p>
-                                <p>In addition to equipping new graduates and young professionals with practical and dynamic problem-solving skills in the energy and technology space, it shall also allow practising professionals to upskill and reskill.
-                                    Our industry school offers dedicated boot camps, diplomas, short courses, certifications, and postgraduate degrees to oil & gas professionals through a curated industry-based curriculum delivered by subject matter experts worldwide. Our industry school promotes innovation and knowledge transfer and produces oil & gas professionals who are well equipped for their employers.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="my-4">
-                            <h3 className='text-center my-4'>Our Cardinal Focus Area</h3>
                             <div className="row">
-                                <div className="col-md-4">
-                                    <div className="about-img">
-                                        <img src={industryTraining} alt="cyphercrescent about" className='img-fluid' />
+                                <div className="col-md-6">
+                                    <h4>Our Industy School</h4>
+                                    <div>
+                                        <p>As a registered member of the international triple helix association, CypherCrescent industry school programmes are designed to run on the triple helix plus model, which entails a strategic collaboration between industry, government, academia, as well as reputable professional associations to fill the practical skill gaps in the energy and technology industry. Through the model, we can identify gaps in the Nigerian oil & gas industry and develop relevant technology skillsets to solve them, thereby fostering value creation in the Nigerian economy.</p>
+                                        <p>This approach will engender research & development, birth innovations, and produce industry professionals with relevant skill sets to solve contemporary industry problems.</p>
+                                        <p>Our industry school is dedicated to solving practical industry problems by educating and bridging the functional skill gap in the E&P industry, allowing industry professionals to earn an academic degree or industry certification in recognition of the skills, knowledge, and experience garnered while working.</p>
+                                        <p>In addition to equipping new graduates and young professionals with practical and dynamic problem-solving skills in the energy and technology space, it shall also allow practising professionals to upskill and reskill.
+                                            Our industry school offers dedicated boot camps, diplomas, short courses, certifications, and postgraduate degrees to oil & gas professionals through a curated industry-based curriculum delivered by subject matter experts worldwide. Our industry school promotes innovation and knowledge transfer and produces oil & gas professionals who are well equipped for their employers.
+                                        </p>
                                     </div>
-                                    <h4 className='text-center mt-3'>Industry Training</h4>
                                 </div>
-                                <div className="col-md-4">
-                                    <div className="about-img">
-                                        <img src={structuredTraining} alt="cyphercrescent about" className='img-fluid' />
-                                    </div>
-                                    <h4 className='text-center mt-3'>Structured Training</h4>
-                                </div>
-                                <div className="col-md-4">
-                                    <div className="about-img">
-                                        <img src={capacityBuillding} alt="cyphercrescent about" className='img-fluid' />
-                                    </div>
-                                    <h4 className='text-center mt-3'>Capacity Building</h4>
+                                <div className="col-md-6">
+                                    <img src={industrySchool} alt="industry school" className="img-fluid" />
                                 </div>
                             </div>
+
                         </div>
                         <div className="my-5">
                             <div className="row">
