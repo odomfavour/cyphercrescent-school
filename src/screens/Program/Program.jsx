@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PayButtonModal from '../../components/PayButtonModal/PayButtonModal';
+import SignupForm from '../../components/SignupForm/SignupForm';
 import WaitingForm from '../../components/WaitingForm/WaitingForm';
 import PageWrapper from '../../layout/PageWrapper/PageWrapper'
 
@@ -9,15 +10,16 @@ const Program = () => {
     const [buttonShow, setButtonShow] = useState(false);
 
     const [showWaitListForm, setshowWaitListForm] = useState(false);
-    const [radioValue, setRadioValue] = useState('virtual');
+    const [showSignupForm, setSignupForm] = useState(false);
+    // const [radioValue, setRadioValue] = useState('virtual');
 
     const handleCloseWaitListForm = () => setshowWaitListForm(false);
     const handleShowWaitListForm = () => setshowWaitListForm(true);
 
-    const getPrice = (selectedLocation) => {
-        let a = programDetails.location.find(element => element.place === selectedLocation);
-        return a.price
-    }
+    // const getPrice = (selectedLocation) => {
+    //     let a = programDetails.location.find(element => element.place === selectedLocation);
+    //     return a.price
+    // }
 
     // const handleClose = () => setShow(false);
     // const handleShow = () => setShow(true);
@@ -41,11 +43,11 @@ const Program = () => {
                                 <h2>{programDetails.name}</h2>
                                 <p>{programDetails.description}</p>
                                 {/* <h5 className='mt-3'>&#36; {programDetails.price}</h5> */}
-                                <h5 className='mt-3'>&#36; {!programDetails.location ?programDetails.price: getPrice(radioValue)}</h5>
+                                {/* <h5 className='mt-3'>&#36; {!programDetails.location ?programDetails.price: getPrice(radioValue)}</h5> */}
                                 {/* <p>Location: {programDetails.location}</p> */}
                                 {programDetails.location ? <div className='mb-3'>
                                     <p>Select your plan</p>
-                                    {programDetails.location.map((e, index) => (
+                                    {/* {programDetails.location.map((e, index) => (
                                         <div key={index}>
                                             <div className="form-check">
                                                 <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value={e.place} checked={radioValue === e.place}
@@ -55,7 +57,7 @@ const Program = () => {
                                                 </label>
                                             </div>
                                         </div>
-                                    ))}
+                                    ))} */}
                                 </div> : ""
                                 }
 
@@ -63,12 +65,12 @@ const Program = () => {
                                     <p className='fw-bold'>Course will be available soon.</p>
                                     <a href="#link" className="btn btn-primary" onClick={handleShowWaitListForm}>Join waiting list</a> </div> : <div>
                                     <div className="d-flex">
-                                        <button className="btn btn-outline-primary me-3">Make Reservation</button>
+                                        <button className="btn btn-outline-primary me-3" onClick={() => setSignupForm(true)}>Signup</button>
                                         {/* <button className="btn btn-primary" onClick={handleShow}>Pay for Course</button> */}
-                                        <button className="btn btn-primary" onClick={() => { setButtonShow(true) }}>Pay for Course</button>
+                                        {/* <button className="btn btn-primary" onClick={() => { setButtonShow(true) }}>Pay for Course</button> */}
                                     </div>
                                 </div>}
-                                <p className='mt-5'>The Lagos and Uyo short courses can also be taken out of the country at $4500 per person</p>
+                                {/* <p className='mt-5'>The Lagos and Uyo short courses can also be taken out of the country at $4500 per person</p> */}
                             </div>
                         </div>
                     </div>
@@ -101,9 +103,9 @@ const Program = () => {
                                             <p className='fw-bold'>Course will be available soon.</p>
                                             <a href="#link" className="btn btn-primary" onClick={handleShowWaitListForm}>Join waiting list</a> </div> : <div>
                                             <div className="d-flex">
-                                                <button className="btn btn-outline-primary me-3">Make Reservation</button>
+                                                <button className="btn btn-outline-primary me-3" onClick={() => setSignupForm(true)}>Signup</button>
                                                 {/* <button className="btn btn-primary" onClick={handleShow}>Pay for Course</button> */}
-                                                <button className="btn btn-primary" onClick={() => { setButtonShow(true) }}>Pay for Course</button>
+                                                {/* <button className="btn btn-primary" onClick={() => { setButtonShow(true) }}>Pay for Course</button> */}
                                             </div>
                                         </div>}
 
@@ -121,7 +123,8 @@ const Program = () => {
                         </div>
                         {/* <Paystack show={show} handleClose={handleClose} amount={programDetails.price + "00"} courseName={programDetails.name} ProductLink={programDetails.link} /> */}
                         <WaitingForm show={showWaitListForm} handleClose={handleCloseWaitListForm} />
-                        <PayButtonModal show={buttonShow} handleClose={() => setButtonShow(false)} program={programDetails} selectedRadio={radioValue} />
+                        <SignupForm show={showSignupForm} handleClose={() => setSignupForm(false)} />
+                        <PayButtonModal show={buttonShow} handleClose={() => setButtonShow(false)} program={programDetails} selectedRadio={''} />
                     </div>
                 </div>
             </section>

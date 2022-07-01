@@ -5,9 +5,12 @@ import Paystack from '../Paystack/Paystack'
 const PayButtonModal = ({ show, handleClose, program, selectedRadio }) => {
     const [openPaystack, setOpenPaystack] = useState(false)
     const getLink = (selectedLocation) => {
-        let a = program.location.find(element => element.place === selectedLocation);
-       return a.link
-     }
+        if (typeof program.location !== Array) {
+            let a = program.location.find(element => element.place === selectedLocation);
+            return a.link
+        }
+
+    }
     const payModal = () => {
         handleClose();
         setOpenPaystack(true)
@@ -28,7 +31,7 @@ const PayButtonModal = ({ show, handleClose, program, selectedRadio }) => {
                     </section>
                 </Modal.Body>
             </Modal>
-            <Paystack show={openPaystack} handleClose={() => setOpenPaystack(false)} amount={program.price + "00"} courseName={program.name} ProductLink={program.location ? getLink(selectedRadio) : program.link} />
+            <Paystack show={openPaystack} handleClose={() => setOpenPaystack(false)} amount={program.price + "00"} courseName={program.name} ProductLink={typeof program.location == Array ? getLink(selectedRadio) : program.link} />
         </div>
     )
 }
