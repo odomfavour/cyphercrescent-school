@@ -25,6 +25,7 @@ function App() {
       <Route path="/program" element={<Program />} />
       <Route path="/programs" element={<Programs />} />
       <Route path="/privacy-policy" element={<Privacy />} />
+      <Route path="*" element={<Home />} />
     </Routes>
   );
 }
