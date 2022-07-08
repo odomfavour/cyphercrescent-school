@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './header.css'
 import { NavLink, useLocation } from 'react-router-dom';
 import { Navbar, Container, Nav } from 'react-bootstrap'
-import logo from '../../images/CCLD.png'
+import logo from '../../images/industry-school.png';
 // import logo from '../../images/about/cc-logo.png'
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 
@@ -36,8 +36,8 @@ const Header = () => {
                 <Navbar.Collapse id="navbarScroll">
                     <div className="ms-auto">
                         <Nav className="top-nav d-flex justify-content-end">
-                            <Nav.Link href="https://ccl-flamingo-dev.netlify.app/" target='_blank'>Energy Services <BsBoxArrowUpRight/></Nav.Link>
-                            <Nav.Link href="http://www.cyphercrescent.tech/" target='_blank'>Information Technology <BsBoxArrowUpRight/></Nav.Link>
+                            <Nav.Link href="#" target='_blank'>Energy Services <BsBoxArrowUpRight/></Nav.Link>
+                            <Nav.Link href="#" target='_blank'>Information Technology <BsBoxArrowUpRight/></Nav.Link>
                             <Nav.Link href="http://www.cyphercrescent.com.ng" target='_blank'>CypherCrescent E&P <BsBoxArrowUpRight/></Nav.Link>
                         </Nav>
                         <Nav

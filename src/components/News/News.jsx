@@ -19,7 +19,7 @@ const News = () => {
                 <div className="py-4">
                     <div className="row">
                         {news.map((newsItem, index) => (
-                            <div className="col-lg-4 col-md-6 col-12" key={newsItem.id}>
+                            <div className="col-lg-6 col-md-6 col-12" key={newsItem.id}>
                                 <div className="news-card h-100">
                                     <div className="news-img text-center">
                                         <img src={newsItem.image} alt="" className='img-fluid' />

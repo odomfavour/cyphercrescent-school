@@ -12,7 +12,7 @@ import geology from '../../images/programs/geology.jpg'
 import landD from '../../images/programs/LandD.jpg'
 // import news1 from '../../images/news-1.png'
 // import news2 from '../../images/news-2.png'
-import news3 from '../../images/news-3.png'
+// import news3 from '../../images/news-3.png'
 
 // import images for the clients
 import aust from '../../images/about/AUST.png'
@@ -209,15 +209,7 @@ export const news = [
         "shortDescription" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school...",
         "body" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
         "image": appoint,
-    },
-    {
-        "id" : 3,
-        "tip" : "Industry school",
-        "title" : "CypherCrescent launches industry school, appoints Tombari as Managing Director of its new subsidiary",
-        "shortDescription" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school...",
-        "body" : "As a part of CypherCrescent’s commitment to providing innovative business intelligence solutions and ensuring human capacity development, the company is proud to announce the commencement of our technology and energy industry school, which will be managed under CypherCrescent Learning & Development Limited (CypherCrescent L&D), a new subsidiary of CypherCrescent Group.",
-        "image": news3,
-    },
+    }
 ]
 
 export const partners = [
